@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OSINT Tools Discovery — Search & Explore 2000+ Intelligence Tools</title>
+  <meta name="description"
+    content="Search and explore 2000+ OSINT tools organized across 95+ categories. Find the right tool for reconnaissance, social media analysis, threat intelligence, and more.">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Hero Section -->
+  <header class="hero" id="top">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-icon">🛡️</span>
+        OSINT Tools Discovery
+      </h1>
+      <p class="hero-subtitle">Search and explore powerful Open Source Intelligence tools</p>
+      <div class="stats-bar" id="statsBar">
+        <span class="stats-count" id="toolCount">0</span> tools
+        <span class="stats-separator">•</span>
+        <span id="categoryCount">0</span> categories
+      </div>
+    </div>
+  </header>
+
+  <!-- Search Section -->
+  <div class="search-section" id="searchSection">
+    <div class="search-container">
+      <div class="search-bar" id="searchBar">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search tools, categories..." autocomplete="off" autofocus>
+        <button class="search-clear" id="searchClear" title="Clear search" aria-label="Clear search">✕</button>
+        <span class="search-kbd" id="searchKbd" title="Press / to search">/</span>
+      </div>
+      <!-- Theme toggle -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" title="Toggle dark/light mode">
+        <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+      <!-- Mobile sidebar toggle -->
+      <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle categories">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <span>Categories</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Main Layout: Sidebar + Grid -->
+  <div class="main-layout">
+    <!-- Sidebar Overlay (mobile) -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="Category navigation">
+      <div class="sidebar-header">
+        <h2 class="sidebar-title">Categories</h2>
+        <button class="sidebar-close" id="sidebarClose" aria-label="Close sidebar">✕</button>
+      </div>
+      <div class="sidebar-list" id="sidebarList">
+        <!-- Populated by JS -->
+      </div>
+    </aside>
+
+    <!-- Results Grid -->
+    <main class="results-section">
+      <div class="results-header" id="resultsHeader">
+        <h2 class="results-title" id="resultsTitle">All Tools</h2>
+        <span class="results-count" id="resultsCount"></span>
+      </div>
+      <div class="results-grid" id="resultsGrid"></div>
+      <div class="load-more-sentinel" id="loadMoreSentinel"></div>
+      <div class="no-results" id="noResults" hidden>
+        <div class="no-results-icon">🔎</div>
+        <h2>No tools found</h2>
+        <p>Try a broader search term or browse a different category.</p>
+        <div class="no-results-suggestions">
+          <span>Try:</span>
+          <button class="suggestion-chip" data-query="shodan">shodan</button>
+          <button class="suggestion-chip" data-query="recon">recon</button>
+          <button class="suggestion-chip" data-query="email">email</button>
+          <button class="suggestion-chip" data-query="social media">social media</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" title="Back to top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+      stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">🛡️</span>
+        <span class="footer-name">OSINT Tools Discovery</span>
+      </div>
+      <p class="footer-tagline">The most comprehensive open-source intelligence toolkit directory</p>
+      <div class="footer-shortcuts">
+        <span class="footer-shortcut"><kbd>/</kbd> Search</span>
+        <span class="footer-dot">·</span>
+        <span class="footer-shortcut"><kbd>Esc</kbd> Clear</span>
+      </div>
+      <p class="footer-copy">© 2025 OSINT Tools Discovery · v2.0</p>
+    </div>
+  </footer>
+
+  <script src="tools-data.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
