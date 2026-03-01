@@ -3,12 +3,133 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=web/index.html">
-    <title>Redirecting to OSINT Tools Discovery...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="2; url=web/index.html">
+    <title>OSINT Tools Discovery</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0a0e1a;
+            color: #e8e6f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .bg {
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(108, 92, 231, 0.25) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 40% at 80% 0%, rgba(0, 206, 201, 0.12) 0%, transparent 50%);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .shield {
+            font-size: 3rem;
+            margin-bottom: 12px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        h1 {
+            font-size: clamp(1.5rem, 4vw, 2.4rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, #a29bfe 0%, #81ecec 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: #9b97b0;
+            font-size: 0.95rem;
+            font-weight: 300;
+            margin-bottom: 28px;
+        }
+
+        .spinner {
+            width: 36px;
+            height: 36px;
+            margin: 0 auto 16px;
+            border: 3px solid rgba(108, 92, 231, 0.2);
+            border-top-color: #6c5ce7;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .status {
+            font-size: 0.78rem;
+            color: #6c6888;
+        }
+
+        a {
+            color: #a29bfe;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #dfe6e9;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Redirecting to <a href="web/index.html">OSINT Tools Discovery</a>...</p>
+    <div class="bg"></div>
+    <div class="container">
+        <div class="shield">🛡️</div>
+        <h1>OSINT Tools Discovery</h1>
+        <p>Loading 2000+ intelligence tools...</p>
+        <div class="spinner"></div>
+        <p class="status">Redirecting automatically · <a href="web/index.html">Click here</a> if not redirected</p>
+    </div>
 </body>
 
 </html>
