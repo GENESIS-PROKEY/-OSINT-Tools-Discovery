@@ -872,24 +872,84 @@ body {
 
 @media (max-width: 640px) {
   .hero {
-    padding: 18px 12px 8px;
+    padding: 14px 10px 6px;
+  }
+
+  .hero-title {
+    font-size: 1.3rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .stats-bar {
+    font-size: 0.72rem;
   }
 
   .search-section {
-    padding: 10px 12px;
+    padding: 8px 10px;
   }
 
   .search-container {
-    gap: 8px;
+    gap: 6px;
   }
 
   .search-bar {
-    padding: 4px 14px;
+    padding: 2px 10px;
+    gap: 8px;
   }
 
   .search-bar input {
-    font-size: 0.88rem;
-    padding: 10px 0;
+    font-size: 0.82rem;
+    padding: 8px 0;
+  }
+
+  .search-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .search-kbd {
+    width: 18px;
+    height: 18px;
+    font-size: 0.6rem;
+  }
+
+  .theme-toggle {
+    width: 34px;
+    height: 34px;
+  }
+
+  .theme-toggle svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .sidebar-toggle {
+    padding: 8px 10px;
+    font-size: 0.72rem;
+  }
+
+  .sidebar-toggle svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .sidebar-toggle span {
+    display: none;
+  }
+
+  .results-header {
+    padding: 4px 2px 10px;
+  }
+
+  .results-title {
+    font-size: 0.95rem;
+  }
+
+  .results-count {
+    font-size: 0.72rem;
   }
 
   .results-grid {
@@ -899,13 +959,82 @@ body {
 
   .tool-card {
     padding: 14px;
+    gap: 6px;
+  }
+
+  .tool-card-name {
+    font-size: 0.88rem;
+  }
+
+  .tool-card-desc {
+    font-size: 0.78rem;
+  }
+
+  .tool-card-category {
+    font-size: 0.62rem;
+  }
+
+  .tool-card-favicon {
+    width: 14px;
+    height: 14px;
   }
 
   .back-to-top {
-    bottom: 16px;
-    right: 16px;
-    width: 40px;
-    height: 40px;
+    bottom: 14px;
+    right: 14px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer {
+    padding: 32px 14px 20px;
+  }
+
+  .footer-name {
+    font-size: 0.88rem;
+  }
+
+  .footer-tagline,
+  .footer-shortcut {
+    font-size: 0.68rem;
+  }
+}
+
+/* Extra small screens (phones < 400px) */
+@media (max-width: 400px) {
+  .hero {
+    padding: 10px 8px 4px;
+  }
+
+  .hero-title {
+    font-size: 1.1rem;
+  }
+
+  .search-bar {
+    padding: 2px 8px;
+    gap: 6px;
+  }
+
+  .search-bar input {
+    font-size: 0.78rem;
+    padding: 7px 0;
+  }
+
+  .search-kbd {
+    display: none;
+  }
+
+  .theme-toggle {
+    width: 30px;
+    height: 30px;
+  }
+
+  .tool-card {
+    padding: 12px;
+  }
+
+  .results-grid {
+    gap: 8px;
   }
 }
 
