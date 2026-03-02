@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![OSINT Tools Discovery](https://img.shields.io/badge/Tools-2459+-6c5ce7?style=for-the-badge)
+![OSINT Tools Discovery](https://img.shields.io/badge/Tools-3000+-6c5ce7?style=for-the-badge)
 ![Categories](https://img.shields.io/badge/Categories-148+-00cec9?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPL_3.0-333?style=for-the-badge)
 

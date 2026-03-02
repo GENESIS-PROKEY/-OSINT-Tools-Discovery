@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2894
+// Total tools: 3002
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -17366,5 +17366,653 @@ const TOOLS_DATA = [
     "description": "Satellite image location guessing",
     "link": "https://geoestimation.com/",
     "category": "Resources"
+  },
+  {
+    "name": "Censys Host Search",
+    "description": "Search hosts on Censys",
+    "link": "https://search.censys.io/hosts",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "FullContact",
+    "description": "Identity resolution platform",
+    "link": "https://www.fullcontact.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Clustdoc",
+    "description": "Client onboarding and document collection",
+    "link": "https://www.clustdoc.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Whaler",
+    "description": "Crawl websites to find JS files",
+    "link": "https://github.com/mrnewpan/whaler",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Collector",
+    "description": "Pentest data collection tool",
+    "link": "https://github.com/galkan/collector",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "ThreatBook CTI",
+    "description": "Chinese cyber threat intelligence",
+    "link": "https://x.threatbook.cn/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Zone-H",
+    "description": "Website defacement archive",
+    "link": "https://zone-h.org/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "SHODAN DORKS",
+    "description": "Shodan search query collection",
+    "link": "https://github.com/humblelad/Shodan-Dorks",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "OneNote Search",
+    "description": "Search OneNote for saved OSINT data",
+    "link": "https://www.onenote.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Cherrytree",
+    "description": "Hierarchical note-taking",
+    "link": "https://www.giuspen.com/cherrytree/",
+    "category": "Productivity"
+  },
+  {
+    "name": "InfoSec News",
+    "description": "Infosec news aggregator",
+    "link": "https://allinfosecnews.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "Sec News",
+    "description": "Cybersecurity news feed",
+    "link": "https://www.secnews.gr/",
+    "category": "Resources"
+  },
+  {
+    "name": "404Media",
+    "description": "Tech and security journalism",
+    "link": "https://www.404media.co/",
+    "category": "Resources"
+  },
+  {
+    "name": "rest.li",
+    "description": "Restful API framework from LinkedIn",
+    "link": "https://linkedin.github.io/rest.li/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Swagger Editor",
+    "description": "Design APIs with OpenAPI",
+    "link": "https://editor.swagger.io/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "APIList.fun",
+    "description": "Public API directory",
+    "link": "https://apilist.fun/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Public APIs",
+    "description": "Collective list of free APIs",
+    "link": "https://github.com/public-apis/public-apis",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "RapidAPI Hub",
+    "description": "API marketplace",
+    "link": "https://rapidapi.com/hub",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "WhoAPI",
+    "description": "Domain API for WHOIS, DNS, screenshots",
+    "link": "https://whoapi.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "DomainIQ",
+    "description": "Domain intelligence tool",
+    "link": "https://www.domainiq.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "SiteWorthTraffic",
+    "description": "Website value estimator",
+    "link": "https://www.siteworthtraffic.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "Website Informer",
+    "description": "Website info and analytics",
+    "link": "https://website.informer.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "URLhaus Country Feed",
+    "description": "Malware URLs by country",
+    "link": "https://urlhaus.abuse.ch/browse/country/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "CheckHost",
+    "description": "Check host availability worldwide",
+    "link": "https://check-host.net/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Down For Everyone",
+    "description": "Check if site is down",
+    "link": "https://downforeveryoneorjustme.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "UptimeRobot",
+    "description": "Website monitoring service",
+    "link": "https://uptimerobot.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "IsItDownRightNow",
+    "description": "Website down checker",
+    "link": "https://www.isitdownrightnow.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Ping.eu",
+    "description": "Online network tools",
+    "link": "https://ping.eu/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Network Tools",
+    "description": "Online DNS and network tools",
+    "link": "https://network-tools.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "CentralOps",
+    "description": "Free online network tools",
+    "link": "https://centralops.net/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "IntoDNS",
+    "description": "DNS check and report",
+    "link": "https://intodns.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Leaf DNS",
+    "description": "DNS query visualization",
+    "link": "https://leafdns.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Whois Lookup",
+    "description": "DomainTools WHOIS lookup",
+    "link": "https://whois.domaintools.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Shodan Images",
+    "description": "Shodan screenshot search",
+    "link": "https://images.shodan.io/",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "Awesome Hacking",
+    "description": "Curated list of hacking tools",
+    "link": "https://github.com/Hack-with-Github/Awesome-Hacking",
+    "category": "Resources"
+  },
+  {
+    "name": "SecTools.org",
+    "description": "Top security tools list",
+    "link": "https://sectools.org/",
+    "category": "Resources"
+  },
+  {
+    "name": "DFIR Training",
+    "description": "Digital forensics training resources",
+    "link": "https://www.dfir.training/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "AboutDFIR",
+    "description": "DFIR tools and resources",
+    "link": "https://aboutdfir.com/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "13Cubed",
+    "description": "DFIR video tutorials",
+    "link": "https://www.13cubed.com/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "OSINTGeek",
+    "description": "OSINT research and tutorials",
+    "link": "https://osintgeek.de/",
+    "category": "Resources"
+  },
+  {
+    "name": "Dutch OSINT Guy",
+    "description": "OSINT tips and techniques",
+    "link": "https://www.dutchosintguy.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "Hacking-Lab",
+    "description": "Online ethical hacking lab",
+    "link": "https://www.hacking-lab.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "AttackDefense",
+    "description": "Cyber security lab environments",
+    "link": "https://attackdefense.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "CryptoHack",
+    "description": "Cryptography learning platform",
+    "link": "https://cryptohack.org/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Pwnable.kr",
+    "description": "System hacking challenges",
+    "link": "https://pwnable.kr/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "SmashTheStack",
+    "description": "Wargame and hacking challenges",
+    "link": "http://smashthestack.org/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Reverse Image Bing",
+    "description": "Bing reverse image search",
+    "link": "https://www.bing.com/images/feed",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "KarmaDecay",
+    "description": "Reverse image search for Reddit",
+    "link": "http://karmadecay.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "RevEye",
+    "description": "Reverse image search extension",
+    "link": "https://chrome.google.com/webstore/detail/reveye-reverse-image-sear/keaaclcjhehbbapnphnmpiklalfhelgf",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Have I Been Pwned API",
+    "description": "HIBP breach check API",
+    "link": "https://haveibeenpwned.com/API/v3",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "Password Leak Check",
+    "description": "Google password leak checker",
+    "link": "https://passwords.google.com/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "F-Secure Identity Checker",
+    "description": "Check email in data breaches",
+    "link": "https://www.f-secure.com/en/identity-theft-checker",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "APNIC NetAP",
+    "description": "Asia Pacific network abuse project",
+    "link": "https://www.apnic.net/community/ecosystem/netap/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "PolySwarm",
+    "description": "Crowdsourced threat detection",
+    "link": "https://polyswarm.network/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Cuckoo Online",
+    "description": "Online malware sandbox",
+    "link": "https://sandbox.pikker.ee/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Anubis Sandbox",
+    "description": "Android malware sandbox",
+    "link": "https://anubis.iseclab.org/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "IRIS-H",
+    "description": "Suspicious file analysis online",
+    "link": "https://iris-h.services/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "ViRobOT",
+    "description": "AI-powered malware detection",
+    "link": "https://github.com/nickthedick/ViRobOT",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Robtex DNS",
+    "description": "DNS lookup and intelligence",
+    "link": "https://www.robtex.com/dns-lookup/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "AbstractAPI Phone",
+    "description": "Phone number validation",
+    "link": "https://www.abstractapi.com/phone-validation-api",
+    "category": "Phone"
+  },
+  {
+    "name": "E.164 Format",
+    "description": "International phone number formatter",
+    "link": "https://www.twilio.com/docs/lookup",
+    "category": "Phone"
+  },
+  {
+    "name": "Weather Underground",
+    "description": "Local weather forecast and history",
+    "link": "https://www.wunderground.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "Social Mention",
+    "description": "Real-time social media search",
+    "link": "https://socialmention.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Talkwalker",
+    "description": "Social media analytics platform",
+    "link": "https://www.talkwalker.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Hootsuite",
+    "description": "Social media management platform",
+    "link": "https://www.hootsuite.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Sprout Social",
+    "description": "Social media management and analytics",
+    "link": "https://sproutsocial.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "BuzzSumo",
+    "description": "Content analysis and social monitoring",
+    "link": "https://www.buzzsumo.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Geo Social Footprint",
+    "description": "Social media geo-intelligence",
+    "link": "https://geosocialfootprint.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Medium Search",
+    "description": "Search Medium articles",
+    "link": "https://medium.com/search",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Substack Search",
+    "description": "Search Substack newsletters",
+    "link": "https://substack.com/discover",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "SSRN",
+    "description": "Social Science Research Network",
+    "link": "https://www.ssrn.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "JSTOR",
+    "description": "Academic journal archive",
+    "link": "https://www.jstor.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "CrossRef",
+    "description": "DOI and citation search",
+    "link": "https://www.crossref.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Scopus",
+    "description": "Largest abstract and citation database",
+    "link": "https://www.scopus.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Web of Science",
+    "description": "Citation index research platform",
+    "link": "https://www.webofscience.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "PubMed",
+    "description": "Biomedical literature search",
+    "link": "https://pubmed.ncbi.nlm.nih.gov/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Europe PMC",
+    "description": "European biomedical literature",
+    "link": "https://europepmc.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "BASE Search",
+    "description": "Academic web search engine",
+    "link": "https://www.base-search.net/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "CORE",
+    "description": "World's largest open access repository",
+    "link": "https://core.ac.uk/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "WorldCat",
+    "description": "Global library catalog search",
+    "link": "https://www.worldcat.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Google Books",
+    "description": "Search and preview books",
+    "link": "https://books.google.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "OpenLibrary",
+    "description": "Open library internet archive",
+    "link": "https://openlibrary.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "LibGen",
+    "description": "Library Genesis book search",
+    "link": "https://libgen.is/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "ResearchGate",
+    "description": "Academic social network",
+    "link": "https://www.researchgate.net/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Academia.edu",
+    "description": "Research paper sharing platform",
+    "link": "https://www.academia.edu/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "ORCID",
+    "description": "Researcher identification system",
+    "link": "https://orcid.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "CyberArk Labs",
+    "description": "Security research and tools",
+    "link": "https://labs.cyberark.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "OffSec Proving Grounds",
+    "description": "Pen testing labs",
+    "link": "https://www.offsec.com/labs/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "VulnMachines",
+    "description": "Free vulnerable lab environments",
+    "link": "https://www.vulnmachines.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "ImmersiveLabs Free",
+    "description": "Free cybersecurity labs",
+    "link": "https://dca.immersivelabs.online/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Blue Team Labs Online",
+    "description": "Blue team security challenges",
+    "link": "https://blueteamlabs.online/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Rangeforce",
+    "description": "Cybersecurity training platform",
+    "link": "https://www.rangeforce.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Splunk BOTS",
+    "description": "Splunk Boss of the SOC CTF",
+    "link": "https://www.splunk.com/en_us/blog/security/boss-of-the-soc.html",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Cyber Defenders Labs",
+    "description": "Blue team lab exercises",
+    "link": "https://cyberdefenders.org/blueteam-ctf-challenges/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "GeoIP Lookup",
+    "description": "MaxMind GeoIP lookup tool",
+    "link": "https://geoiplookup.net/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Repo Security Scanner",
+    "description": "Scan repos for sensitive data",
+    "link": "https://github.com/nickthedick/repo-scanner",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "DumpsterDiver",
+    "description": "Analyze big data for hardcoded secrets",
+    "link": "https://github.com/securing/DumpsterDiver",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "SecretScanner",
+    "description": "Find secrets and passwords in containers",
+    "link": "https://github.com/deepfence/SecretScanner",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Whispers",
+    "description": "Identify hardcoded secrets",
+    "link": "https://github.com/Skyscanner/whispers",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "SpyGlass",
+    "description": "Network asset discovery",
+    "link": "https://github.com/nickthedick/spyglass",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Hunchly",
+    "description": "Web capture tool for investigations",
+    "link": "https://www.hunch.ly/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "SiloBreaker",
+    "description": "Threat intelligence platform",
+    "link": "https://www.silobreaker.com/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "MISP Modules",
+    "description": "Modules for MISP threat data",
+    "link": "https://github.com/MISP/misp-modules",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Amass Viz",
+    "description": "Visualize Amass enumeration data",
+    "link": "https://github.com/owasp-amass/amass/blob/master/doc/viz.md",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "AbstractAPI Geolocation",
+    "description": "IP geolocation API service",
+    "link": "https://www.abstractapi.com/ip-geolocation-api",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Wayback Downloader",
+    "description": "Download entire Wayback snapshots",
+    "link": "https://github.com/hartator/wayback-machine-downloader",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "BuiltWith Trends",
+    "description": "Technology usage trends",
+    "link": "https://trends.builtwith.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Have I Been Squatted",
+    "description": "Detect domain typosquatting",
+    "link": "https://www.yourdigitaltrace.com/haveibeensquatted",
+    "category": "Phishing Analysis"
   }
 ];
