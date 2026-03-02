@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2586
+// Total tools: 2680
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -15518,5 +15518,569 @@ const TOOLS_DATA = [
     "description": "IoT pentesting framework",
     "link": "https://github.com/ElevenPaths/HomePWN",
     "category": "IoT OSINT"
+  },
+  {
+    "name": "HackRF One",
+    "description": "Open source SDR platform",
+    "link": "https://greatscottgadgets.com/hackrf/one/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "GQRX",
+    "description": "Open source SDR receiver",
+    "link": "https://gqrx.dk/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "CubicSDR",
+    "description": "Cross-platform SDR application",
+    "link": "https://cubicsdr.com/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Universal Radio Hacker",
+    "description": "Wireless protocol analysis",
+    "link": "https://github.com/jopohl/urh",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Airgeddon",
+    "description": "Wireless security auditing",
+    "link": "https://github.com/v1s1t0r1sh3r3/airgeddon",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Bully",
+    "description": "WPS brute force attack tool",
+    "link": "https://github.com/aanarchyy/bully",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Pixiewps",
+    "description": "WPS offline brute force",
+    "link": "https://github.com/wiire-a/pixiewps",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Aviationstack",
+    "description": "Flight tracking API",
+    "link": "https://aviationstack.com/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "OpenSky API",
+    "description": "Open air traffic surveillance API",
+    "link": "https://openskynetwork.github.io/opensky-api/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "UN/LOCODE",
+    "description": "Location codes for trade and transport",
+    "link": "https://unece.org/trade/cefact/unlocode-code-list-country-and-territory",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "FRED Economic Data",
+    "description": "Federal Reserve economic data",
+    "link": "https://fred.stlouisfed.org/",
+    "category": "Government"
+  },
+  {
+    "name": "EU Whoiswho",
+    "description": "EU institutional directory",
+    "link": "https://op.europa.eu/en/web/who-is-who",
+    "category": "Government"
+  },
+  {
+    "name": "Canada Business Registries",
+    "description": "Canadian company records",
+    "link": "https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/fdrlCrpSrch.html",
+    "category": "Government"
+  },
+  {
+    "name": "Australian Business Register",
+    "description": "ABN lookup Australia",
+    "link": "https://abr.business.gov.au/",
+    "category": "Government"
+  },
+  {
+    "name": "NZ Companies Register",
+    "description": "New Zealand company search",
+    "link": "https://www.companiesoffice.govt.nz/companies/",
+    "category": "Government"
+  },
+  {
+    "name": "Indian MCA",
+    "description": "Indian company registry",
+    "link": "https://www.mca.gov.in/",
+    "category": "Government"
+  },
+  {
+    "name": "EDGAR Full-Text Search",
+    "description": "SEC filing text search",
+    "link": "https://efts.sec.gov/LATEST/search-index?q=",
+    "category": "Government"
+  },
+  {
+    "name": "DocumentCloud",
+    "description": "Research and publish documents",
+    "link": "https://www.documentcloud.org/",
+    "category": "Government"
+  },
+  {
+    "name": "Annual Reports",
+    "description": "Free annual report service",
+    "link": "https://www.annualreports.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "TechCrunch",
+    "description": "Startup and tech company news",
+    "link": "https://techcrunch.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "CB Insights",
+    "description": "Tech market intelligence platform",
+    "link": "https://www.cbinsights.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Mattermark",
+    "description": "Growth and business intelligence",
+    "link": "https://mattermark.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Alexa Web Info",
+    "description": "Website traffic ranking data",
+    "link": "https://www.alexa.com/siteinfo",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "StackShare",
+    "description": "Tech stack intelligence",
+    "link": "https://stackshare.io/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Product Hunt",
+    "description": "Tech product launches",
+    "link": "https://www.producthunt.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "GuideStar",
+    "description": "Nonprofit organization data",
+    "link": "https://www.guidestar.org/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Charity Navigator",
+    "description": "Charity ratings and financials",
+    "link": "https://www.charitynavigator.org/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "US Census",
+    "description": "US demographic data",
+    "link": "https://www.census.gov/",
+    "category": "Public Records"
+  },
+  {
+    "name": "SSDMF",
+    "description": "Social Security Death Master File",
+    "link": "https://www.ntis.gov/products/ssa-dmf/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Federal Prison Locator",
+    "description": "Federal inmate lookup",
+    "link": "https://www.bop.gov/inmateloc/",
+    "category": "Public Records"
+  },
+  {
+    "name": "State Prison Locator",
+    "description": "State prison inmate search",
+    "link": "https://www.prisonpolicy.org/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Court Records US",
+    "description": "Federal and state court records",
+    "link": "https://www.uscourts.gov/court-records",
+    "category": "Public Records"
+  },
+  {
+    "name": "Patent Search",
+    "description": "USPTO patent search",
+    "link": "https://www.uspto.gov/patents/search",
+    "category": "Public Records"
+  },
+  {
+    "name": "Trademark Search",
+    "description": "USPTO trademark database",
+    "link": "https://tmsearch.uspto.gov/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Copyright Search",
+    "description": "US copyright registration records",
+    "link": "https://cocatalog.loc.gov/",
+    "category": "Public Records"
+  },
+  {
+    "name": "OSHA Inspections",
+    "description": "Workplace safety inspection data",
+    "link": "https://www.osha.gov/ords/imis/establishment.html",
+    "category": "Public Records"
+  },
+  {
+    "name": "CanaryTokens",
+    "description": "Create tripwire tokens",
+    "link": "https://canarytokens.org/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Interact.sh",
+    "description": "OOB interaction detection",
+    "link": "https://app.interactsh.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Ngrok",
+    "description": "Expose local servers to internet",
+    "link": "https://ngrok.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Collaborator Server",
+    "description": "Burp Suite collaborator",
+    "link": "https://portswigger.net/burp/documentation/collaborator",
+    "category": "Toolset"
+  },
+  {
+    "name": "DNSLog",
+    "description": "DNS callback monitoring",
+    "link": "https://dnslog.cn/",
+    "category": "Toolset"
+  },
+  {
+    "name": "JWT.io",
+    "description": "Decode and verify JWTs",
+    "link": "https://jwt.io/",
+    "category": "Toolset"
+  },
+  {
+    "name": "ASN1 Decoder",
+    "description": "Decode ASN.1 data structures",
+    "link": "https://lapo.it/asn1js/",
+    "category": "Toolset"
+  },
+  {
+    "name": "dnschecker.org",
+    "description": "DNS propagation checker",
+    "link": "https://dnschecker.org/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Shodan Command-Line",
+    "description": "CLI tool for Shodan",
+    "link": "https://github.com/achillean/shodan-python",
+    "category": "Toolset"
+  },
+  {
+    "name": "DownloadHelper",
+    "description": "Download videos from websites",
+    "link": "https://www.downloadhelper.net/",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "FireShot",
+    "description": "Full page screenshots in browser",
+    "link": "https://getfireshot.com/",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "Bellingcat",
+    "description": "Investigative journalism using OSINT",
+    "link": "https://www.bellingcat.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "GIJN",
+    "description": "Global Investigative Journalism Network",
+    "link": "https://gijn.org/",
+    "category": "Resources"
+  },
+  {
+    "name": "CyberDetective GitHub",
+    "description": "OSINT lists by CyberDetective",
+    "link": "https://github.com/cipher387",
+    "category": "Resources"
+  },
+  {
+    "name": "Nixintel",
+    "description": "OSINT techniques blog",
+    "link": "https://nixintel.info/",
+    "category": "Resources"
+  },
+  {
+    "name": "Hatless1der",
+    "description": "OSINT investigation blog",
+    "link": "https://hatless1der.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "Jake Creps OSINT",
+    "description": "OSINT blog and tools",
+    "link": "https://jakecreps.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "OhShINT",
+    "description": "OSINT cheat sheets and guides",
+    "link": "https://ohshint.gitbook.io/",
+    "category": "Resources"
+  },
+  {
+    "name": "IsItPhishing",
+    "description": "Real-time phishing detection",
+    "link": "https://isitphishing.org/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "PhishFort",
+    "description": "Brand protection from phishing",
+    "link": "https://www.phishfort.com/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "LOLDrivers",
+    "description": "Living off the land drivers",
+    "link": "https://www.loldrivers.io/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "MalwareTech PoCs",
+    "description": "Proof of concept exploits",
+    "link": "https://github.com/MalwareTech",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "NIST NVD Search",
+    "description": "Search national vulnerability DB",
+    "link": "https://nvd.nist.gov/vuln/search",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "OSV",
+    "description": "Open source vulnerability database",
+    "link": "https://osv.dev/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "Snyk Vulnerability DB",
+    "description": "Open source vuln database",
+    "link": "https://security.snyk.io/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "GitHub Advisory DB",
+    "description": "GitHub security advisories",
+    "link": "https://github.com/advisories",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "TLS Observatory",
+    "description": "Mozilla TLS analysis tool",
+    "link": "https://observatory.mozilla.org/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "HSTS Preload Check",
+    "description": "Check HSTS preload status",
+    "link": "https://hstspreload.org/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "Report URI",
+    "description": "Security reporting endpoint service",
+    "link": "https://report-uri.com/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "Fluentd",
+    "description": "Open source data collector",
+    "link": "https://www.fluentd.org/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Logstash",
+    "description": "Data processing pipeline",
+    "link": "https://www.elastic.co/logstash/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Cribl",
+    "description": "Data routing and observability",
+    "link": "https://cribl.io/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "TheHive Documentation",
+    "description": "Incident response platform docs",
+    "link": "https://docs.strangebee.com/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "House",
+    "description": "iOS runtime exploration tool",
+    "link": "https://github.com/nickthedick/house",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "SSL Kill Switch",
+    "description": "Disable SSL certificate validation on iOS",
+    "link": "https://github.com/nickthedick/ssl-kill-switch2",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "Oversecured",
+    "description": "Mobile app vulnerability scanner",
+    "link": "https://oversecured.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "AppSweep",
+    "description": "Free mobile app security testing",
+    "link": "https://appsweep.guardsquare.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "QARK",
+    "description": "Quick Android Review Kit",
+    "link": "https://github.com/linkedin/qark",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "DBeaver",
+    "description": "Universal database tool",
+    "link": "https://dbeaver.io/",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "Responder-Windows",
+    "description": "LLMNR responder credentials",
+    "link": "https://github.com/lgandx/Responder-Windows",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "Spray",
+    "description": "Password spraying tool",
+    "link": "https://github.com/Greenwolf/Spray",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "CredNinja",
+    "description": "Credential validation tool",
+    "link": "https://github.com/Raikia/CredNinja",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "DefaultCreds Cheat Sheet",
+    "description": "Default credentials list",
+    "link": "https://github.com/ihebski/DefaultCreds-cheat-sheet",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "CIRT Default Passwords",
+    "description": "Default password database",
+    "link": "https://cirt.net/passwords",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "Webanalyze",
+    "description": "Port of Wappalyzer to CLI",
+    "link": "https://github.com/rverton/webanalyze",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Fingerprint.js",
+    "description": "Browser fingerprinting library",
+    "link": "https://fingerprint.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "AmIUnique",
+    "description": "Browser fingerprint checker",
+    "link": "https://amiunique.org/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "CoverYourTracks",
+    "description": "EFF browser privacy test",
+    "link": "https://coveryourtracks.eff.org/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "BrowserLeaks",
+    "description": "Web browser security test",
+    "link": "https://browserleaks.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "DeviceInfo",
+    "description": "Show browser and device info",
+    "link": "https://www.deviceinfo.me/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Backlink Checker",
+    "description": "Check backlinks for any URL",
+    "link": "https://ahrefs.com/backlink-checker",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "SimilarSites",
+    "description": "Find similar websites",
+    "link": "https://www.similarsites.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "StatsCrop",
+    "description": "Website analytics and info",
+    "link": "https://www.statscrop.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "Privoxy",
+    "description": "Non-caching web proxy",
+    "link": "https://www.privoxy.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Matrix.org",
+    "description": "Decentralized secure messaging",
+    "link": "https://matrix.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Session",
+    "description": "End-to-end encrypted messenger",
+    "link": "https://getsession.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Cryptomator",
+    "description": "Cloud storage encryption",
+    "link": "https://cryptomator.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Rclone",
+    "description": "Cloud storage management",
+    "link": "https://rclone.org/",
+    "category": "Privacy Tools"
   }
 ];
