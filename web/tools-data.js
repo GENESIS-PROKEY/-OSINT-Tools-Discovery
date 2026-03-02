@@ -1,6 +1,6 @@
 // Auto-generated
-// Total tools: 2375
-// Categories: 147
+// Total tools: 2459
+// Categories: 148
 
 const TOOLS_DATA = [
   {
@@ -14252,5 +14252,509 @@ const TOOLS_DATA = [
     "description": "Investigative tech journalism",
     "link": "https://themarkup.org/",
     "category": "News & Media OSINT"
+  },
+  {
+    "name": "Pastebin",
+    "description": "Public paste sharing platform",
+    "link": "https://pastebin.com/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "Paste.ee",
+    "description": "Encrypted paste service",
+    "link": "https://paste.ee/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "Ghostbin",
+    "description": "Anonymous paste service",
+    "link": "https://ghostbin.me/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "JustPaste.it",
+    "description": "Text sharing platform",
+    "link": "https://justpaste.it/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "Snusbase",
+    "description": "Breach database search engine",
+    "link": "https://snusbase.com/",
+    "category": "Breaches & Leaks"
+  },
+  {
+    "name": "Zettlr",
+    "description": "Markdown editor for researchers",
+    "link": "https://www.zettlr.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Trilium Notes",
+    "description": "Hierarchical note-taking application",
+    "link": "https://github.com/zadam/trilium",
+    "category": "Productivity"
+  },
+  {
+    "name": "AppFlowy",
+    "description": "Open source Notion alternative",
+    "link": "https://www.appflowy.io/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Generated Photos",
+    "description": "AI-generated faces database",
+    "link": "https://generated.photos/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "RandomUser",
+    "description": "Random user data generator API",
+    "link": "https://randomuser.me/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "Fake Address Generator",
+    "description": "Generate fake addresses worldwide",
+    "link": "https://www.fakeaddressgenerator.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "Elfqrin Discard",
+    "description": "Credit card number generator for testing",
+    "link": "https://www.elfqrin.com/hacklab/pages/discard.php",
+    "category": "ID Generator"
+  },
+  {
+    "name": "BugMeNot",
+    "description": "Shared login credentials",
+    "link": "https://bugmenot.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "Temp Phone Number",
+    "description": "Receive SMS online temporarily",
+    "link": "https://receive-smss.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "VirusTotal Graph",
+    "description": "Visualize malware relationships",
+    "link": "https://www.virustotal.com/graph/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "URLhaus Database",
+    "description": "Database of malicious URLs",
+    "link": "https://urlhaus.abuse.ch/browse/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Botvrij",
+    "description": "Free IOC feeds",
+    "link": "https://www.botvrij.eu/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "C2 Tracker",
+    "description": "Live C2 servers tracker",
+    "link": "https://github.com/montysecurity/C2-Tracker",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "ThreatBook",
+    "description": "Chinese threat intelligence platform",
+    "link": "https://x.threatbook.com/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Shodan Trends",
+    "description": "Internet exposure trends",
+    "link": "https://trends.shodan.io/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "RansomWatch",
+    "description": "Ransomware gang monitoring",
+    "link": "https://ransomwatch.telemetry.ltd/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Ransomlook",
+    "description": "Ransomware leak site tracker",
+    "link": "https://www.ransomlook.io/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "Bitbucket",
+    "description": "Git code management",
+    "link": "https://bitbucket.org/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "SourceForge",
+    "description": "Open source software repository",
+    "link": "https://sourceforge.net/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "Codeberg",
+    "description": "Free git hosting alternative",
+    "link": "https://codeberg.org/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "Launchpad",
+    "description": "Ubuntu package and code hosting",
+    "link": "https://launchpad.net/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "Gitea",
+    "description": "Self-hosted Git service",
+    "link": "https://gitea.io/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "Google Code Archive",
+    "description": "Archived Google Code projects",
+    "link": "https://code.google.com/archive/",
+    "category": "Source Codes"
+  },
+  {
+    "name": "LLM Guard",
+    "description": "Input/output sanitization for LLMs",
+    "link": "https://github.com/protectai/llm-guard",
+    "category": "LLM Security / AI Security"
+  },
+  {
+    "name": "Vigil",
+    "description": "LLM prompt injection detection",
+    "link": "https://github.com/deadbits/vigil-llm",
+    "category": "LLM Security / AI Security"
+  },
+  {
+    "name": "Foremost",
+    "description": "File carving tool",
+    "link": "https://github.com/jonstewart/foremost",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "Scalpel",
+    "description": "Fast file carver",
+    "link": "https://github.com/sleuthkit/scalpel",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "PhotoRec",
+    "description": "File data recovery",
+    "link": "https://www.cgsecurity.org/wiki/PhotoRec",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "TestDisk",
+    "description": "Partition recovery tool",
+    "link": "https://www.cgsecurity.org/wiki/TestDisk",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "Xplico",
+    "description": "Network forensic analysis",
+    "link": "https://www.xplico.org/",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "DeepBlueCLI",
+    "description": "PowerShell for Windows event log hunting",
+    "link": "https://github.com/sans-blue-team/DeepBlueCLI",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "Maltego Transforms",
+    "description": "Custom data integrations for Maltego",
+    "link": "https://www.maltego.com/categories/osint/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "SpiderFoot Modules",
+    "description": "SpiderFoot's 200+ data modules",
+    "link": "https://www.spiderfoot.net/modules/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Axiom",
+    "description": "Dynamic infrastructure for OSINT",
+    "link": "https://github.com/pry0cc/axiom",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Discover Scripts",
+    "description": "Custom recon scripts by Lee Baird",
+    "link": "https://github.com/leebaird/discover",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "AutoRecon",
+    "description": "Multi-threaded network recon tool",
+    "link": "https://github.com/Tib3rius/AutoRecon",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Recon Pipeline",
+    "description": "Automated recon pipeline framework",
+    "link": "https://github.com/epi052/recon-pipeline",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "DEA Fugitives",
+    "description": "DEA most wanted fugitives",
+    "link": "https://www.dea.gov/fugitives",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "US Marshals Most Wanted",
+    "description": "US Marshals wanted list",
+    "link": "https://www.usmarshals.gov/investigations/most-wanted",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "ICE Most Wanted",
+    "description": "Immigration enforcement wanted",
+    "link": "https://www.ice.gov/most-wanted",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "ATF Most Wanted",
+    "description": "ATF most wanted fugitives",
+    "link": "https://www.atf.gov/most-wanted",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "Secret Service Most Wanted",
+    "description": "USSS cyber most wanted",
+    "link": "https://www.secretservice.gov/investigation/mostwanted",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "Europol Most Wanted",
+    "description": "EU law enforcement wanted list",
+    "link": "https://eumostwanted.eu/",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "NCA Most Wanted",
+    "description": "UK National Crime Agency wanted",
+    "link": "https://www.nationalcrimeagency.gov.uk/most-wanted",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "CrimeStoppers",
+    "description": "Anonymous crime reporting",
+    "link": "https://crimestoppers-uk.org/",
+    "category": "Police / LE / Fed"
+  },
+  {
+    "name": "Tornado Cash Tracker",
+    "description": "Track Tornado Cash transactions",
+    "link": "https://dune.com/21co/tornado-cash",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "DEXTools",
+    "description": "DeFi trading charts and analytics",
+    "link": "https://www.dextools.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "CoinGecko",
+    "description": "Cryptocurrency market data",
+    "link": "https://www.coingecko.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "CoinMarketCap",
+    "description": "Crypto prices and market cap",
+    "link": "https://coinmarketcap.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "PlatesMania",
+    "description": "License plate database worldwide",
+    "link": "https://platesmania.com/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "WorldLicensePlates",
+    "description": "License plate formats worldwide",
+    "link": "https://www.worldlicenseplates.com/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "FindByPlate",
+    "description": "Find vehicles by license plate",
+    "link": "https://findbyplate.com/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "SquareX",
+    "description": "Disposable file viewer and sandbox",
+    "link": "https://sqrx.com/",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "PDF Stream Dumper",
+    "description": "Analyze PDF malware",
+    "link": "https://github.com/dzzie/pdfstreamdumper",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "Origami",
+    "description": "Ruby PDF analysis framework",
+    "link": "https://github.com/gdelugre/origami",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "pdfid",
+    "description": "Scan PDF for dangerous keywords",
+    "link": "https://blog.didierstevens.com/programs/pdf-tools/",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "CyberChef Recipes",
+    "description": "Community CyberChef recipes",
+    "link": "https://github.com/mattnotmax/cyberchef-recipes",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "OSINT Map by CybDetective",
+    "description": "OSINT tools by country",
+    "link": "https://cybdetective.com/osintmap/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "SkyDB",
+    "description": "Satellite database tracking",
+    "link": "https://www.ucsusa.org/resources/satellite-database",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Stellarium",
+    "description": "Planetarium for star and sky identification",
+    "link": "https://stellarium.org/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "CalcMaps",
+    "description": "Calculate area and distance on map",
+    "link": "https://www.calcmaps.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "FreeMapTools",
+    "description": "Map-based distance and radius tools",
+    "link": "https://www.freemaptools.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "BatchGeo",
+    "description": "Create maps from spreadsheet data",
+    "link": "https://batchgeo.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "LEI Search",
+    "description": "Legal Entity Identifier lookup",
+    "link": "https://search.gleif.org/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "ISIN Database",
+    "description": "International security identifiers",
+    "link": "https://www.isindb.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "FARA.gov",
+    "description": "Foreign agents registration database",
+    "link": "https://efile.fara.gov/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Influence Explorer",
+    "description": "Political influence and lobbying data",
+    "link": "https://sunlightfoundation.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "MOBISEC",
+    "description": "Mobile security learning platform",
+    "link": "https://mobisec.reyammer.io/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "Runtime Mobile Security",
+    "description": "Manipulate apps at runtime",
+    "link": "https://github.com/nicola-music/RMS-Runtime-Mobile-Security",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "Quark Engine",
+    "description": "Android malware scoring system",
+    "link": "https://github.com/quark-engine/quark-engine",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "AndroBugs",
+    "description": "Android vulnerability scanner",
+    "link": "https://github.com/AndroBugs/AndroBugs_Framework",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "GrapheneOS",
+    "description": "Privacy and security focused Android",
+    "link": "https://grapheneos.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "LibreWolf",
+    "description": "Privacy-focused Firefox fork",
+    "link": "https://librewolf.net/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Bromite",
+    "description": "Chromium with ad blocking and privacy",
+    "link": "https://www.bromite.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Dangerzone",
+    "description": "Convert risky documents to safe PDFs",
+    "link": "https://dangerzone.rocks/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Wifipedia",
+    "description": "WiFi network database",
+    "link": "https://wifipedia.org/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "SigIdWiki",
+    "description": "Signal identification guide",
+    "link": "https://www.sigidwiki.com/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Broadcastify",
+    "description": "Live police/fire/EMS scanner audio",
+    "link": "https://www.broadcastify.com/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Scanner Frequencies",
+    "description": "Radio frequency database",
+    "link": "https://www.scannerfrequencies.com/",
+    "category": "Wireless Network OSINT"
   }
 ];
