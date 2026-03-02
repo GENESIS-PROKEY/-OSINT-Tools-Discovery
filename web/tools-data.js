@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2513
+// Total tools: 2586
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -15080,5 +15080,443 @@ const TOOLS_DATA = [
     "description": "Free web security training",
     "link": "https://portswigger.net/web-security",
     "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "WAScan",
+    "description": "Web application scanner",
+    "link": "https://github.com/m4ll0k/WAScan",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Jaeles",
+    "description": "Web application testing framework",
+    "link": "https://github.com/jaeles-project/jaeles",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Haktrails",
+    "description": "Subdomain discovery via SecurityTrails",
+    "link": "https://github.com/hakluke/haktrails",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "CloudRecon",
+    "description": "Find cloud assets by SSL certs",
+    "link": "https://github.com/g0ldencybersec/CloudRecon",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Gxss",
+    "description": "Reflected parameter checker",
+    "link": "https://github.com/KathanP19/Gxss",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Qsreplace",
+    "description": "Replace query string values in URLs",
+    "link": "https://github.com/tomnomnom/qsreplace",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "InfluencerDB",
+    "description": "Influencer marketing intelligence",
+    "link": "https://www.influencerdb.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Pikdo",
+    "description": "Instagram web viewer",
+    "link": "https://www.pikdo.biz/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Deskgram",
+    "description": "Instagram marketing platform",
+    "link": "https://deskgram.cc/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "YouTube Metadata",
+    "description": "Extract YouTube video metadata",
+    "link": "https://mattw.io/youtube-metadata/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Netdisco",
+    "description": "Web-based network management tool",
+    "link": "https://netdisco.org/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "PacketTotal",
+    "description": "PCAP analysis platform",
+    "link": "https://packettotal.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Pcap Analyzer",
+    "description": "Analyze network capture files",
+    "link": "https://apackets.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "AbuseIPDB Check",
+    "description": "Check IP for abuse reports",
+    "link": "https://www.abuseipdb.com/check/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Censys ASM",
+    "description": "Attack surface management",
+    "link": "https://censys.io/platform/asm",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Bubblemaps",
+    "description": "Visualize crypto token distribution",
+    "link": "https://app.bubblemaps.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Watchers.pro",
+    "description": "Ethereum whale watcher",
+    "link": "https://www.watchers.pro/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Bitquery",
+    "description": "Blockchain data analytics",
+    "link": "https://bitquery.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Coin Dance",
+    "description": "Bitcoin statistics and data",
+    "link": "https://coin.dance/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Glassnode",
+    "description": "On-chain market intelligence",
+    "link": "https://glassnode.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "IntoTheBlock",
+    "description": "Crypto analytics platform",
+    "link": "https://www.intotheblock.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "LunarCrush",
+    "description": "Social intelligence for crypto",
+    "link": "https://lunarcrush.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Nuclei Templates",
+    "description": "Community vuln scan templates",
+    "link": "https://github.com/projectdiscovery/nuclei-templates",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Hetty",
+    "description": "HTTP toolkit for security research",
+    "link": "https://github.com/dstotijn/hetty",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "ParamMiner",
+    "description": "Mining params to find hidden attack surface",
+    "link": "https://github.com/PortSwigger/param-miner",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Log4Shell Scanner",
+    "description": "Scan for Log4Shell vulnerability",
+    "link": "https://log4shell.huntress.com/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Spring4Shell Scanner",
+    "description": "Scan for Spring4Shell CVE-2022-22965",
+    "link": "https://github.com/fullhunt/spring4shell-scan",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "CRLFuzz",
+    "description": "CRLF injection scanner",
+    "link": "https://github.com/dwisiswant0/crlfuzz",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "StreetViewHub",
+    "description": "Compare street view from multiple providers",
+    "link": "https://streetviewhub.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Living Atlas",
+    "description": "Esri's curated geospatial data",
+    "link": "https://livingatlas.arcgis.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Radio Garden",
+    "description": "Listen to radio worldwide by location",
+    "link": "https://radio.garden/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "OverPass API",
+    "description": "Query OpenStreetMap programmatically",
+    "link": "https://overpass-api.de/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Map Checking",
+    "description": "Debunking fake news with maps",
+    "link": "https://www.mapchecking.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "OSMTracker",
+    "description": "Track OSM changes in area",
+    "link": "https://osmtracker.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "DarkFeed",
+    "description": "Ransomware intelligence feed",
+    "link": "https://darkfeed.io/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "SOCRadar Dark Web",
+    "description": "Dark web monitoring",
+    "link": "https://socradar.io/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "IntSights",
+    "description": "External threat intelligence with dark web",
+    "link": "https://intsights.com/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Sixgill",
+    "description": "Dark web threat intelligence",
+    "link": "https://www.cybersixgill.com/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Terbium Labs",
+    "description": "Dark web data monitoring",
+    "link": "https://www.terbiumlabs.com/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Obsidian OSINT Templates",
+    "description": "OSINT investigation templates",
+    "link": "https://github.com/WebBreacher/obsidian-osint-templates",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "NetBootcamp OSINT Tools",
+    "description": "Online OSINT tools collection",
+    "link": "https://netbootcamp.org/osinttools/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Aware Online Academy",
+    "description": "OSINT online training academy",
+    "link": "https://www.aware-online.com/en/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Neighbor.report",
+    "description": "Address and neighbor lookup",
+    "link": "https://neighbor.report/",
+    "category": "People Search"
+  },
+  {
+    "name": "Addresses.com",
+    "description": "People and address finder",
+    "link": "https://www.addresses.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "PublicRecordsNow",
+    "description": "People search and public records",
+    "link": "https://www.publicrecordsnow.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "CyberBackground",
+    "description": "Background check service",
+    "link": "https://www.cyberbackgroundchecks.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Azure Stormspotter",
+    "description": "Azure AD graph tool",
+    "link": "https://github.com/Azure/Stormspotter",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "ROADtools",
+    "description": "Azure AD exploration framework",
+    "link": "https://github.com/dirkjanm/ROADtools",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "AADInternals",
+    "description": "Azure AD admin toolkit",
+    "link": "https://github.com/Gerenios/AADInternals",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "Rhino Security Pacu",
+    "description": "AWS exploitation framework",
+    "link": "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "MemProcFS",
+    "description": "Memory process file system",
+    "link": "https://github.com/ufrisk/MemProcFS",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "AVML",
+    "description": "Acquire volatile memory for Linux",
+    "link": "https://github.com/microsoft/avml",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "LiME",
+    "description": "Linux memory extractor",
+    "link": "https://github.com/504ensicsLabs/LiME",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Redline",
+    "description": "Endpoint investigation tool by FireEye",
+    "link": "https://fireeye.market/apps/211364",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "X-Ways Forensics",
+    "description": "Advanced forensics investigation",
+    "link": "https://www.x-ways.net/forensics/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Capa",
+    "description": "Detect capabilities in executables",
+    "link": "https://github.com/mandiant/capa",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "DIE (Detect It Easy)",
+    "description": "File type identifier",
+    "link": "https://github.com/horsicq/Detect-It-Easy",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "PEiD",
+    "description": "PE file packer identifier",
+    "link": "https://www.aldeid.com/wiki/PEiD",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Floss",
+    "description": "Extract obfuscated strings from malware",
+    "link": "https://github.com/mandiant/flare-floss",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Radare2",
+    "description": "Reverse engineering framework",
+    "link": "https://www.radare.org/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Binary Ninja",
+    "description": "Binary analysis platform",
+    "link": "https://binary.ninja/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Hashes.org Lookup",
+    "description": "Hash lookup database",
+    "link": "https://hashes.org/",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "HashMyFiles",
+    "description": "Calculate hashes of files",
+    "link": "https://www.nirsoft.net/utils/hash_my_files.html",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "PCFGCracker",
+    "description": "ML-based password cracker",
+    "link": "https://github.com/mattweiler/pcfg_cracker",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "Crobat",
+    "description": "Rapid7 subdomain API client",
+    "link": "https://github.com/cgboal/sonern",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "DNSGen",
+    "description": "Generate domain name permutations",
+    "link": "https://github.com/ProjectAnte/dnsgen",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Gotator",
+    "description": "Subdomain permutation tool in Go",
+    "link": "https://github.com/Josue87/gotator",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Regulator",
+    "description": "Subdomain permutation generator",
+    "link": "https://github.com/cramppet/regulator",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Firmware.re",
+    "description": "IoT firmware analysis platform",
+    "link": "https://firmware.re/",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "EMBA",
+    "description": "Firmware security analysis",
+    "link": "https://github.com/e-m-b-a/emba",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "FirmWalker",
+    "description": "Search extracted firmware filesystems",
+    "link": "https://github.com/craigz28/firmwalker",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "RouterSploit",
+    "description": "Exploitation framework for embedded devices",
+    "link": "https://github.com/threat9/routersploit",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "HomePwn",
+    "description": "IoT pentesting framework",
+    "link": "https://github.com/ElevenPaths/HomePWN",
+    "category": "IoT OSINT"
   }
 ];
