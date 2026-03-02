@@ -1,6 +1,6 @@
 // Auto-generated
-// Total tools: 2287
-// Categories: 146
+// Total tools: 2375
+// Categories: 147
 
 const TOOLS_DATA = [
   {
@@ -13724,5 +13724,533 @@ const TOOLS_DATA = [
     "description": "OSINT data gathering tool",
     "link": "https://github.com/Lucksi/Mr.Holmes",
     "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Hakcheckurl",
+    "description": "Check URL status codes quickly",
+    "link": "https://github.com/hakluke/hakcheckurl",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Haklistgen",
+    "description": "Generate wordlists from URLs",
+    "link": "https://github.com/hakluke/haklistgen",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "GoWitness",
+    "description": "Website screenshot utility",
+    "link": "https://github.com/sensepost/gowitness",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "EyeWitness",
+    "description": "Take screenshots of websites",
+    "link": "https://github.com/RedSiege/EyeWitness",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "GAP Burp Extension",
+    "description": "Find hidden params in JS files",
+    "link": "https://github.com/xnl-h4ck3r/GAP-Burp-Extension",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Meg",
+    "description": "Fetch many URLs without killing server",
+    "link": "https://github.com/tomnomnom/meg",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Unfurl",
+    "description": "Pull out bits of URLs",
+    "link": "https://github.com/tomnomnom/unfurl",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Carrot2",
+    "description": "Clustering search engine",
+    "link": "https://search.carrot2.org/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Disconnect Search",
+    "description": "Private search using major engines",
+    "link": "https://search.disconnect.me/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Startpage",
+    "description": "Google results with privacy",
+    "link": "https://www.startpage.com/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "MetaGer",
+    "description": "German privacy search engine",
+    "link": "https://metager.org/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Internet Archive Search",
+    "description": "Search archived web content",
+    "link": "https://archive.org/search",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Shodan Search",
+    "description": "Search engine for IoT devices",
+    "link": "https://www.shodan.io/explore",
+    "category": "Search Engines"
+  },
+  {
+    "name": "iSeek",
+    "description": "Intelligent search engine",
+    "link": "https://www.iseek.com/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "IPLocation",
+    "description": "IP to geolocation lookup",
+    "link": "https://www.iplocation.net/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "WhatIsMyIPAddress",
+    "description": "IP address lookup and tools",
+    "link": "https://whatismyipaddress.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "IP2Location",
+    "description": "IP geolocation database",
+    "link": "https://www.ip2location.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "MaxMind GeoIP",
+    "description": "IP geolocation databases and services",
+    "link": "https://www.maxmind.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Multirbl",
+    "description": "IP blacklist check on 200+ lists",
+    "link": "https://multirbl.valli.org/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Talos IP Reputation",
+    "description": "Cisco IP and domain reputation",
+    "link": "https://www.talosintelligence.com/reputation_center",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Whoisology",
+    "description": "Reverse WHOIS with domain history",
+    "link": "https://whoisology.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Domainwatch",
+    "description": "Domain monitoring service",
+    "link": "https://domainwat.ch/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "subdomains.whoisxmlapi",
+    "description": "API for subdomain discovery",
+    "link": "https://subdomains.whoisxmlapi.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "RECAP Archive",
+    "description": "Free access to PACER records",
+    "link": "https://www.courtlistener.com/recap/",
+    "category": "Government"
+  },
+  {
+    "name": "GovInfo",
+    "description": "US government publications",
+    "link": "https://www.govinfo.gov/",
+    "category": "Government"
+  },
+  {
+    "name": "Data.gov",
+    "description": "US government open data",
+    "link": "https://data.gov/",
+    "category": "Government"
+  },
+  {
+    "name": "FBI Most Wanted",
+    "description": "FBI wanted persons database",
+    "link": "https://www.fbi.gov/wanted",
+    "category": "Government"
+  },
+  {
+    "name": "Interpol Red Notices",
+    "description": "International wanted persons",
+    "link": "https://www.interpol.int/en/How-we-work/Notices/Red-Notices/View-Red-Notices",
+    "category": "Government"
+  },
+  {
+    "name": "EU Sanctions Map",
+    "description": "EU restrictive measures map",
+    "link": "https://www.sanctionsmap.eu/",
+    "category": "Government"
+  },
+  {
+    "name": "UN Sanctions",
+    "description": "United Nations sanctions list",
+    "link": "https://www.un.org/securitycouncil/sanctions/information",
+    "category": "Government"
+  },
+  {
+    "name": "OpenSanctions",
+    "description": "Open database of sanctioned entities",
+    "link": "https://www.opensanctions.org/",
+    "category": "Government"
+  },
+  {
+    "name": "UniCourt",
+    "description": "US court records search",
+    "link": "https://unicourt.com/",
+    "category": "Public Records"
+  },
+  {
+    "name": "County Assessor",
+    "description": "Property tax and assessment records",
+    "link": "https://publicrecords.netronline.com/",
+    "category": "Public Records"
+  },
+  {
+    "name": "NSOPW",
+    "description": "National sex offender public website",
+    "link": "https://www.nsopw.gov/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Depix",
+    "description": "Recover text from pixelated images",
+    "link": "https://github.com/beurtschipper/Depix",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Stegsolve",
+    "description": "Steganography analysis tool",
+    "link": "https://github.com/Giotino/stegsolve",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Steghide",
+    "description": "Hide data in images and audio",
+    "link": "https://steghide.sourceforge.net/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Zsteg",
+    "description": "Detect steganography in PNG/BMP",
+    "link": "https://github.com/zed-0xff/zsteg",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "ExifCleaner",
+    "description": "Remove metadata from files",
+    "link": "https://exifcleaner.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Sonic Visualiser",
+    "description": "Analyze audio spectrograms",
+    "link": "https://www.sonicvisualiser.org/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Image Upscaler",
+    "description": "Enhance image resolution with AI",
+    "link": "https://www.iloveimg.com/upscale-image",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "PhoneInfoga",
+    "description": "Advanced phone number scanner",
+    "link": "https://github.com/sundowndev/phoneinfoga",
+    "category": "Phone"
+  },
+  {
+    "name": "Moriarty Project",
+    "description": "Phone number investigation tool",
+    "link": "https://github.com/AzizKpworking/Moriarty-Project",
+    "category": "Phone"
+  },
+  {
+    "name": "Free Carrier Lookup",
+    "description": "Phone carrier identification",
+    "link": "https://freecarrierlookup.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "CallerID Hub",
+    "description": "Reverse phone lookup",
+    "link": "https://www.calleridhub.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "SpyDialer",
+    "description": "Free reverse phone lookup",
+    "link": "https://www.spydialer.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "Bellingcat OSM Search",
+    "description": "Search OpenStreetMap for features",
+    "link": "https://osm-search.bellingcat.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "HERE WeGo",
+    "description": "Maps and navigation",
+    "link": "https://wego.here.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "Historic Aerials",
+    "description": "Historical aerial imagery",
+    "link": "https://www.historicaerials.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenRailwayMap",
+    "description": "Railway infrastructure map",
+    "link": "https://www.openrailwaymap.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenSeaMap",
+    "description": "Nautical charts online",
+    "link": "https://map.openseamap.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "Copernicus Browser",
+    "description": "EU satellite data browser",
+    "link": "https://dataspace.copernicus.eu/browser/",
+    "category": "Maps"
+  },
+  {
+    "name": "LightningMaps",
+    "description": "Real-time lightning map",
+    "link": "https://www.lightningmaps.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "Hoppscotch",
+    "description": "Open source API development tool",
+    "link": "https://hoppscotch.io/",
+    "category": "Toolset"
+  },
+  {
+    "name": "RequestBin",
+    "description": "Inspect webhooks and HTTP requests",
+    "link": "https://pipedream.com/requestbin",
+    "category": "Toolset"
+  },
+  {
+    "name": "jq play",
+    "description": "JSON processor playground",
+    "link": "https://jqplay.org/",
+    "category": "Toolset"
+  },
+  {
+    "name": "JSONCrack",
+    "description": "Visualize JSON data as graphs",
+    "link": "https://jsoncrack.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Base64 Decode",
+    "description": "Base64 encode/decode online",
+    "link": "https://www.base64decode.org/",
+    "category": "Toolset"
+  },
+  {
+    "name": "NTLM Hash Generator",
+    "description": "Generate NTLM hashes online",
+    "link": "https://codebeautify.org/ntlm-hash-generator",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "CredSniper",
+    "description": "Phishing credential harvester",
+    "link": "https://github.com/ustayready/CredSniper",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "BuiltWith Extension",
+    "description": "See what sites are built with",
+    "link": "https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "User-Agent Switcher",
+    "description": "Switch browser user agent",
+    "link": "https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "Cookie Editor",
+    "description": "Edit cookies in browser",
+    "link": "https://cookie-editor.com/",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "ModHeader",
+    "description": "Modify HTTP headers",
+    "link": "https://modheader.com/",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "Wayback Machine Ext",
+    "description": "Save and view archived pages",
+    "link": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "SingleFile",
+    "description": "Save complete web page as single HTML",
+    "link": "https://github.com/nickthedick/SingleFile",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "Nimbus Screenshot",
+    "description": "Capture and annotate screenshots",
+    "link": "https://nimbusweb.me/",
+    "category": "Browser Extensions"
+  },
+  {
+    "name": "OSINT Dojo",
+    "description": "OSINT training and resources",
+    "link": "https://www.yourdigitaltrace.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "OSINT Techniques",
+    "description": "IntelTechniques resources and guides",
+    "link": "https://www.inteltechniques.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "Sector035 Week in OSINT",
+    "description": "Weekly OSINT news roundup",
+    "link": "https://sector035.nl/",
+    "category": "Resources"
+  },
+  {
+    "name": "SANS OSINT Summit",
+    "description": "OSINT conference and training",
+    "link": "https://www.sans.org/cyber-security-training-events/open-source-intelligence-summit/",
+    "category": "Resources"
+  },
+  {
+    "name": "Aware Online",
+    "description": "OSINT training and tutorials",
+    "link": "https://www.aware-online.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "Open Bug Bounty",
+    "description": "Non-profit bug bounty platform",
+    "link": "https://www.openbugbounty.org/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Disclose.io",
+    "description": "Safe harbor for security research",
+    "link": "https://disclose.io/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "OWASP",
+    "description": "Open Web Application Security Project",
+    "link": "https://owasp.org/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Shodan SSL search",
+    "description": "Search SSL certificates via Shodan",
+    "link": "https://www.shodan.io/search?query=ssl",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "CertDB",
+    "description": "SSL certificate search engine",
+    "link": "https://certdb.com/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "KeyCDN SSL Test",
+    "description": "Test SSL/TLS configuration",
+    "link": "https://tools.keycdn.com/ssl",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "SSL Checker",
+    "description": "Diagnose SSL certificate issues",
+    "link": "https://www.sslshopper.com/ssl-checker.html",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "Grafana",
+    "description": "Open source analytics and monitoring",
+    "link": "https://grafana.com/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Prometheus",
+    "description": "Systems monitoring and alerting",
+    "link": "https://prometheus.io/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "TheHive4Cortex-Analyzers",
+    "description": "OSINT analysis in incident response",
+    "link": "https://github.com/TheHive-Project/Cortex-Analyzers",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "HELK",
+    "description": "Hunting ELK threat hunting platform",
+    "link": "https://github.com/Cyb3rWard0g/HELK",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Wayback News",
+    "description": "Archived news articles",
+    "link": "https://web.archive.org/web/*/news*",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Semantic Scholar",
+    "description": "AI-powered academic search",
+    "link": "https://www.semanticscholar.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Open Access Button",
+    "description": "Find free copies of research",
+    "link": "https://openaccessbutton.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Sci-Hub",
+    "description": "Access to scientific papers",
+    "link": "https://sci-hub.se/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "The Markup",
+    "description": "Investigative tech journalism",
+    "link": "https://themarkup.org/",
+    "category": "News & Media OSINT"
   }
 ];

@@ -4,8 +4,8 @@
 
 <div align="center">
 
-![OSINT Tools Discovery](https://img.shields.io/badge/Tools-2287+-6c5ce7?style=for-the-badge)
-![Categories](https://img.shields.io/badge/Categories-146+-00cec9?style=for-the-badge)
+![OSINT Tools Discovery](https://img.shields.io/badge/Tools-2375+-6c5ce7?style=for-the-badge)
+![Categories](https://img.shields.io/badge/Categories-147+-00cec9?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-GPL_3.0-333?style=for-the-badge)
 
 **[🔍 Launch App](https://GENESIS-PROKEY.github.io/-OSINT-Tools-Discovery/)** · **[📋 Report Issue](https://github.com/GENESIS-PROKEY/-OSINT-Tools-Discovery/issues)**
