@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2779
+// Total tools: 2894
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -16676,5 +16676,695 @@ const TOOLS_DATA = [
     "description": "Offline intelligence analysis",
     "link": "https://www.maltego.com/categories/casefile/",
     "category": "Productivity"
+  },
+  {
+    "name": "Traceroute Online",
+    "description": "Visual traceroute tool",
+    "link": "https://www.traceroute.org/",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "ARIN WHOIS/RDAP",
+    "description": "American Registry for Internet Numbers",
+    "link": "https://search.arin.net/rdap/",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "APNIC WHOIS",
+    "description": "Asia Pacific IP registry lookup",
+    "link": "https://wq.apnic.net/",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "LACNIC WHOIS",
+    "description": "Latin American IP registry",
+    "link": "https://lacnic.net/cgi-bin/lacnic/whois",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "AfriNIC WHOIS",
+    "description": "African IP registry lookup",
+    "link": "https://afrinic.net/whois",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Webshag",
+    "description": "Web server auditing tool",
+    "link": "https://github.com/c71n93/webshag",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "HTTrack",
+    "description": "Website copier/offline browser",
+    "link": "https://www.httrack.com/",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Wget Mirror",
+    "description": "Recursive website downloader",
+    "link": "https://www.gnu.org/software/wget/",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Twlets",
+    "description": "Download tweets and followers",
+    "link": "https://twlets.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "OsintGram Telegram",
+    "description": "Telegram OSINT tool",
+    "link": "https://github.com/Alb-310/Geogramint",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Geogramint",
+    "description": "Telegram user geolocation OSINT",
+    "link": "https://github.com/Alb-310/Geogramint",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Subreddit Stats",
+    "description": "Reddit subreddit analytics",
+    "link": "https://subredditstats.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Reddit Investigator",
+    "description": "Analyze Reddit user profiles",
+    "link": "https://www.redditinvestigator.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "YouTube GeoFind",
+    "description": "Find YouTube videos by location",
+    "link": "https://mattw.io/youtube-geofind/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "WhatsApp Web",
+    "description": "WhatsApp contact investigation",
+    "link": "https://web.whatsapp.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Signal OSINT",
+    "description": "Signal number lookup techniques",
+    "link": "https://github.com/BellingcatBlockchain/signal-check",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Skype Resolver",
+    "description": "Skype IP and info resolver",
+    "link": "https://www.skypeipresolver.net/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "WeChat Lookup",
+    "description": "WeChat account investigation tools",
+    "link": "https://www.wechat.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "LINE OSINT",
+    "description": "LINE messenger investigation",
+    "link": "https://line.me/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "IANA AS Numbers",
+    "description": "Autonomous system number registry",
+    "link": "https://www.iana.org/assignments/as-numbers/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Peeringdb",
+    "description": "Peering database for networks",
+    "link": "https://www.peeringdb.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "WHOIS.com",
+    "description": "Domain name WHOIS lookup",
+    "link": "https://www.whois.com/whois/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Domain.Glass",
+    "description": "Discover domain information",
+    "link": "https://domain.glass/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Expired Domains",
+    "description": "Search for expired domains",
+    "link": "https://www.expireddomains.net/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Hunter Domain Search",
+    "description": "Find emails associated with domain",
+    "link": "https://hunter.io/domain-search",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Wayback CDX API",
+    "description": "Full text search through web archives",
+    "link": "https://web.archive.org/cdx/search/cdx",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Apple Maps",
+    "description": "Apple's mapping service",
+    "link": "https://mapsconnect.apple.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "Strava Heatmap",
+    "description": "Athletic activity heatmap",
+    "link": "https://www.strava.com/heatmap",
+    "category": "Maps"
+  },
+  {
+    "name": "AllTrails",
+    "description": "Trail and outdoor activity maps",
+    "link": "https://www.alltrails.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenInfraMap",
+    "description": "Infrastructure mapping from OSM",
+    "link": "https://openinframap.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "SAS Planet",
+    "description": "Map viewer and downloader",
+    "link": "https://www.sasgis.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenCNAM",
+    "description": "Caller name lookup API",
+    "link": "https://www.opencnam.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "TelephoneDirectories",
+    "description": "International phone directories",
+    "link": "https://www.telephonedirectories.us/",
+    "category": "Phone"
+  },
+  {
+    "name": "TextMagic Phone Lookup",
+    "description": "Phone number validation tool",
+    "link": "https://www.textmagic.com/free-tools/carrier-lookup",
+    "category": "Phone"
+  },
+  {
+    "name": "Callapp",
+    "description": "Caller ID and block service",
+    "link": "https://www.callapp.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "Hiya",
+    "description": "Caller ID and spam protection",
+    "link": "https://www.hiya.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "Mr. Number",
+    "description": "Caller ID lookup app",
+    "link": "https://mrnumber.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "TinEye Labs",
+    "description": "Multicolor Search Engine",
+    "link": "https://labs.tineye.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "LogoGrab",
+    "description": "Logo and trademark detection",
+    "link": "https://www.logograb.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "AudD",
+    "description": "Music recognition API",
+    "link": "https://audd.io/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "ACRCloud",
+    "description": "Audio recognition service",
+    "link": "https://www.acrcloud.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Ffmpeg",
+    "description": "Multimedia processing toolkit",
+    "link": "https://ffmpeg.org/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "UK Gov Data",
+    "description": "UK government open data portal",
+    "link": "https://www.data.gov.uk/",
+    "category": "Government"
+  },
+  {
+    "name": "France Open Data",
+    "description": "French government open data",
+    "link": "https://www.data.gouv.fr/",
+    "category": "Government"
+  },
+  {
+    "name": "Germany Open Data",
+    "description": "German government open data",
+    "link": "https://www.govdata.de/",
+    "category": "Government"
+  },
+  {
+    "name": "Japan e-Stat",
+    "description": "Japanese government statistics",
+    "link": "https://www.e-stat.go.jp/en",
+    "category": "Government"
+  },
+  {
+    "name": "South Korea KOSIS",
+    "description": "Korean statistical information",
+    "link": "https://kosis.kr/eng/",
+    "category": "Government"
+  },
+  {
+    "name": "Brazil Open Data",
+    "description": "Brazilian government open data",
+    "link": "https://dados.gov.br/",
+    "category": "Government"
+  },
+  {
+    "name": "Russia Rosreestr",
+    "description": "Russian property registry",
+    "link": "https://rosreestr.gov.ru/",
+    "category": "Government"
+  },
+  {
+    "name": "Singapore Data",
+    "description": "Singapore government open data",
+    "link": "https://data.gov.sg/",
+    "category": "Government"
+  },
+  {
+    "name": "Foreclosure.com",
+    "description": "Foreclosure property listings",
+    "link": "https://www.foreclosure.com/",
+    "category": "Public Records"
+  },
+  {
+    "name": "LandWatch",
+    "description": "Land and rural property data",
+    "link": "https://www.landwatch.com/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Krebs on Security",
+    "description": "Security news and investigation blog",
+    "link": "https://krebsonsecurity.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "The Hacker News",
+    "description": "Cybersecurity news platform",
+    "link": "https://thehackernews.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Bleeping Computer",
+    "description": "Cybersecurity and tech news",
+    "link": "https://www.bleepingcomputer.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "DarkReading",
+    "description": "Cybersecurity news and analysis",
+    "link": "https://www.darkreading.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "SecurityWeek",
+    "description": "Cybersecurity news",
+    "link": "https://www.securityweek.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Threatpost",
+    "description": "Cybersecurity news and research",
+    "link": "https://threatpost.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "InfoSec Write-ups",
+    "description": "Security research articles",
+    "link": "https://infosecwriteups.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "BugBountyHunter",
+    "description": "Bug bounty hunting resources",
+    "link": "https://www.bugbountyhunter.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Pentester's Promiscuous Notebook",
+    "description": "Pentest cheat sheets",
+    "link": "https://ppn.snovvcrash.rocks/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "Bloomberg",
+    "description": "Financial news and company data",
+    "link": "https://www.bloomberg.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Reuters",
+    "description": "Global news and company info",
+    "link": "https://www.reuters.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Financial Times",
+    "description": "Business and financial news",
+    "link": "https://www.ft.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Wall Street Journal",
+    "description": "Business news and data",
+    "link": "https://www.wsj.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Yahoo Finance",
+    "description": "Financial news and market data",
+    "link": "https://finance.yahoo.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Google Finance",
+    "description": "Stock market and company data",
+    "link": "https://www.google.com/finance/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "TradingView",
+    "description": "Financial market charting",
+    "link": "https://www.tradingview.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "WRDS",
+    "description": "Wharton Research Data Services",
+    "link": "https://wrds-www.wharton.upenn.edu/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Photopea",
+    "description": "Free online image editor",
+    "link": "https://www.photopea.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Prezi",
+    "description": "Presentation creation platform",
+    "link": "https://prezi.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Google Docs",
+    "description": "Online document editor",
+    "link": "https://docs.google.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Google Sheets",
+    "description": "Online spreadsheet editor",
+    "link": "https://sheets.google.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Airtable",
+    "description": "Spreadsheet-database hybrid",
+    "link": "https://www.airtable.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Trello",
+    "description": "Project management boards",
+    "link": "https://trello.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Miro",
+    "description": "Online collaborative whiteboard",
+    "link": "https://miro.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "PentestMonkey Cheat Sheet",
+    "description": "Reverse shell cheat sheet",
+    "link": "https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet",
+    "category": "Toolset"
+  },
+  {
+    "name": "IHateRegex",
+    "description": "Regex patterns for common tasks",
+    "link": "https://ihateregex.io/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Carbon",
+    "description": "Create beautiful code screenshots",
+    "link": "https://carbon.now.sh/",
+    "category": "Toolset"
+  },
+  {
+    "name": "JSFiddle",
+    "description": "Test JavaScript code online",
+    "link": "https://jsfiddle.net/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Pastebin Raw",
+    "description": "Raw text sharing",
+    "link": "https://pastebin.com/raw/",
+    "category": "Toolset"
+  },
+  {
+    "name": "Gist GitHub",
+    "description": "Share code snippets",
+    "link": "https://gist.github.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "GPSVisualizer",
+    "description": "Map and profile GPS data",
+    "link": "https://www.gpsvisualizer.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "LatLong.net",
+    "description": "Latitude longitude finder",
+    "link": "https://www.latlong.net/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "WikiShootMe",
+    "description": "Photos needed near your location",
+    "link": "https://wikishootme.toolforge.org/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "NASA WorldView",
+    "description": "Near real-time satellite imagery",
+    "link": "https://worldview.earthdata.nasa.gov/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "CoinTracker",
+    "description": "Crypto portfolio and tax tracking",
+    "link": "https://www.cointracker.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "CryptoCompare",
+    "description": "Crypto price comparison",
+    "link": "https://www.cryptocompare.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Token Terminal",
+    "description": "Crypto protocol analytics",
+    "link": "https://tokenterminal.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "DefiLlama",
+    "description": "DeFi TVL tracker",
+    "link": "https://defillama.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "NFTScan",
+    "description": "NFT data analytics platform",
+    "link": "https://www.nftscan.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "OpenSea",
+    "description": "NFT marketplace",
+    "link": "https://opensea.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Etherscan Token Tracker",
+    "description": "Track ERC-20 token transfers",
+    "link": "https://etherscan.io/tokens",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Tenderly",
+    "description": "Smart contract debugging",
+    "link": "https://tenderly.co/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "EmailOSINT",
+    "description": "All-in-one email intelligence",
+    "link": "https://emailosint.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Gravatar Checker",
+    "description": "Check Gravatar by email hash",
+    "link": "https://en.gravatar.com/site/check/",
+    "category": "Email"
+  },
+  {
+    "name": "Have I Been Zucked",
+    "description": "Check Facebook data leak exposure",
+    "link": "https://haveibeenzucked.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Leaked Source",
+    "description": "Data breach search engine",
+    "link": "https://leakedsource.ru/",
+    "category": "Email"
+  },
+  {
+    "name": "Darknet Markets",
+    "description": "List of active darknet markets",
+    "link": "https://darknetlive.com/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "DarknetStats",
+    "description": "Dark web statistics and analysis",
+    "link": "https://www.darknetstats.com/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Tor2Web Gateway",
+    "description": "Access Tor without Tor Browser",
+    "link": "https://onion.ws/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "NotEvil",
+    "description": "Tor hidden service search engine",
+    "link": "https://notevil.site/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "WiFi Map",
+    "description": "Free WiFi hotspot map",
+    "link": "https://www.wifimap.io/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Cell2GPS",
+    "description": "Convert cell tower to GPS coordinates",
+    "link": "https://www.cell2gps.com/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "OpenBTS",
+    "description": "Open source base transceiver station",
+    "link": "https://github.com/RangeNetworks/openbts",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Stingray Detector",
+    "description": "IMSI catcher detection",
+    "link": "https://github.com/AshleyLeyworthy/stingray-detector",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "PrivacyTools.io",
+    "description": "Privacy-focused services guide",
+    "link": "https://www.privacytools.io/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "PRISM Break",
+    "description": "Opt out of surveillance programs",
+    "link": "https://prism-break.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Security In A Box",
+    "description": "Digital security for activists",
+    "link": "https://securityinabox.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Access Now",
+    "description": "Digital rights organization",
+    "link": "https://www.accessnow.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "OSINT Quiz",
+    "description": "Test your OSINT skills",
+    "link": "https://twitter.com/Sector035",
+    "category": "Resources"
+  },
+  {
+    "name": "Gralhix",
+    "description": "OSINT challenges and exercises",
+    "link": "https://gralhix.com/",
+    "category": "Resources"
+  },
+  {
+    "name": "OSINT Yoga",
+    "description": "Weekly OSINT challenges",
+    "link": "https://yoga.osint.ninja/",
+    "category": "Resources"
+  },
+  {
+    "name": "Quiztime",
+    "description": "Community OSINT verification quiz",
+    "link": "https://twitter.com/quaborlomne",
+    "category": "Resources"
+  },
+  {
+    "name": "Geolocation Estimation",
+    "description": "Satellite image location guessing",
+    "link": "https://geoestimation.com/",
+    "category": "Resources"
   }
 ];
