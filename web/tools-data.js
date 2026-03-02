@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2459
+// Total tools: 2513
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -14756,5 +14756,329 @@ const TOOLS_DATA = [
     "description": "Radio frequency database",
     "link": "https://www.scannerfrequencies.com/",
     "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "CTFR",
+    "description": "Subdomains from certificate transparency",
+    "link": "https://github.com/UnaPibaGeworworworworworqueCwordsWords",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "GitTools",
+    "description": "Tools for interaction with git repos",
+    "link": "https://github.com/internetwache/GitTools",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "JSFinder",
+    "description": "Find JS files and endpoints",
+    "link": "https://github.com/Threezh1/JSFinder",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "LinkFinder",
+    "description": "Find endpoints in JavaScript files",
+    "link": "https://github.com/GerbenJavado/LinkFinder",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "SecretFinder",
+    "description": "Find sensitive data in JavaScript",
+    "link": "https://github.com/m4ll0k/SecretFinder",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Subdomainator",
+    "description": "Passive subdomain enumeration",
+    "link": "https://github.com/RevoltSecurities/Subdomainator",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Shodan Facets",
+    "description": "Statistical analysis of Shodan data",
+    "link": "https://www.shodan.io/search/facet",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "IPdata.co",
+    "description": "IP geolocation and threat data",
+    "link": "https://ipdata.co/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "DNSDB",
+    "description": "Historical DNS database by Farsight",
+    "link": "https://www.dnsdb.info/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "RapidAPI WHOIS",
+    "description": "WHOIS lookup API",
+    "link": "https://rapidapi.com/collection/whois-lookup",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Reverse IP Lookup",
+    "description": "Find domains on same IP",
+    "link": "https://www.yougetsignal.com/tools/web-sites-on-web-server/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Subnet Calculator",
+    "description": "CIDR subnet calculator",
+    "link": "https://www.subnet-calculator.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "ASN Lookup",
+    "description": "Autonomous system number search",
+    "link": "https://asnlookup.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Grams (Tor)",
+    "description": "Dark web search (historical)",
+    "link": "https://en.wikipedia.org/wiki/Grams_(search)",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Gibiru",
+    "description": "Uncensored search engine",
+    "link": "https://gibiru.com/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "Oscobo",
+    "description": "UK-based privacy search engine",
+    "link": "https://oscobo.com/",
+    "category": "Search Engines"
+  },
+  {
+    "name": "MailNinja",
+    "description": "Email lookup and verification",
+    "link": "https://mailninja.co/",
+    "category": "Email"
+  },
+  {
+    "name": "ZeroBounce",
+    "description": "Email validation and scoring",
+    "link": "https://www.zerobounce.net/",
+    "category": "Email"
+  },
+  {
+    "name": "Debounce",
+    "description": "Email validation API",
+    "link": "https://debounce.io/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Permutator+",
+    "description": "Generate email address permutations",
+    "link": "https://metricsparrow.com/toolkit/email-permutator/",
+    "category": "Email"
+  },
+  {
+    "name": "MXLookup",
+    "description": "MX record lookup tool",
+    "link": "https://mxtoolbox.com/MXLookup.aspx",
+    "category": "Email"
+  },
+  {
+    "name": "SPF Record Checker",
+    "description": "SPF record validator",
+    "link": "https://mxtoolbox.com/spf.aspx",
+    "category": "Email"
+  },
+  {
+    "name": "DMARC Analyzer",
+    "description": "DMARC record checker",
+    "link": "https://mxtoolbox.com/dmarc.aspx",
+    "category": "Email"
+  },
+  {
+    "name": "Number Guru",
+    "description": "Free phone number lookup",
+    "link": "https://www.numberguru.com/",
+    "category": "Phone"
+  },
+  {
+    "name": "TelcoData",
+    "description": "Phone carrier lookup by NPA-NXX",
+    "link": "https://www.telcodata.us/",
+    "category": "Phone"
+  },
+  {
+    "name": "CountryCode.org",
+    "description": "International phone codes",
+    "link": "https://countrycode.org/",
+    "category": "Phone"
+  },
+  {
+    "name": "IMEI Check",
+    "description": "Check phone IMEI status",
+    "link": "https://www.imei.info/",
+    "category": "Phone"
+  },
+  {
+    "name": "QGIS",
+    "description": "Free open source GIS",
+    "link": "https://qgis.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenTopoMap",
+    "description": "Topographical maps from OSM data",
+    "link": "https://opentopomap.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "Hiking Project",
+    "description": "Trail maps and hiking routes",
+    "link": "https://www.hikingproject.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "OpenCycleMap",
+    "description": "Cycling route maps",
+    "link": "https://www.opencyclemap.org/",
+    "category": "Maps"
+  },
+  {
+    "name": "David Rumsey Maps",
+    "description": "Historical map collection",
+    "link": "https://www.davidrumsey.com/",
+    "category": "Maps"
+  },
+  {
+    "name": "AmIReal",
+    "description": "Detect AI-generated faces",
+    "link": "https://amireal.ai/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "AI Image Detector",
+    "description": "Detect if image is AI-generated",
+    "link": "https://www.aiornot.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Hive Moderation",
+    "description": "AI content detection",
+    "link": "https://hivemoderation.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "ImgOps",
+    "description": "Reverse image search multi-tool",
+    "link": "https://imgops.com/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "GIMP",
+    "description": "Free image editing and analysis",
+    "link": "https://www.gimp.org/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Google Fact Check Tools",
+    "description": "Fact check image/claim search",
+    "link": "https://toolbox.google.com/factcheck/explorer",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "Steg Online",
+    "description": "Online steganography toolkit",
+    "link": "https://stegonline.georgeom.net/",
+    "category": "Images & Audio"
+  },
+  {
+    "name": "CIA World Factbook",
+    "description": "Country intelligence data",
+    "link": "https://www.cia.gov/the-world-factbook/",
+    "category": "Government"
+  },
+  {
+    "name": "UN Data",
+    "description": "United Nations statistical data",
+    "link": "https://data.un.org/",
+    "category": "Government"
+  },
+  {
+    "name": "Global Terrorism Database",
+    "description": "Terrorism incident data",
+    "link": "https://www.start.umd.edu/gtd/",
+    "category": "Government"
+  },
+  {
+    "name": "SIPRI",
+    "description": "Arms transfers and military spending",
+    "link": "https://www.sipri.org/",
+    "category": "Government"
+  },
+  {
+    "name": "SSN Validator",
+    "description": "Validate US Social Security Numbers",
+    "link": "https://www.ssn-verify.com/",
+    "category": "Public Records"
+  },
+  {
+    "name": "Marriage Records",
+    "description": "US marriage records search",
+    "link": "https://www.vitalchek.com/marriage-records",
+    "category": "Public Records"
+  },
+  {
+    "name": "Death Records",
+    "description": "US death records verification",
+    "link": "https://www.vitalchek.com/death-certificates",
+    "category": "Public Records"
+  },
+  {
+    "name": "Immigration Records",
+    "description": "Historical immigration and travel",
+    "link": "https://www.libertyellisfoundation.org/passenger",
+    "category": "Public Records"
+  },
+  {
+    "name": "Epoch Converter",
+    "description": "Unix timestamp converter",
+    "link": "https://www.epochconverter.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "DevHints",
+    "description": "Developer cheat sheets",
+    "link": "https://devhints.io/",
+    "category": "Toolset"
+  },
+  {
+    "name": "RevShells",
+    "description": "Reverse shell generator",
+    "link": "https://www.revshells.com/",
+    "category": "Toolset"
+  },
+  {
+    "name": "HackTricks",
+    "description": "Pentesting methodology book",
+    "link": "https://book.hacktricks.xyz/",
+    "category": "Toolset"
+  },
+  {
+    "name": "PayloadsAllTheThings",
+    "description": "Useful payloads and bypass",
+    "link": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "category": "Toolset"
+  },
+  {
+    "name": "PentesterLab",
+    "description": "Hands-on web hacking exercises",
+    "link": "https://pentesterlab.com/",
+    "category": "Bug Bounty / Security Research"
+  },
+  {
+    "name": "PortSwigger Academy",
+    "description": "Free web security training",
+    "link": "https://portswigger.net/web-security",
+    "category": "Bug Bounty / Security Research"
   }
 ];
