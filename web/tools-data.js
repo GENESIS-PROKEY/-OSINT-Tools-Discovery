@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2680
+// Total tools: 2779
 // Categories: 148
 
 const TOOLS_DATA = [
@@ -16082,5 +16082,599 @@ const TOOLS_DATA = [
     "description": "Cloud storage management",
     "link": "https://rclone.org/",
     "category": "Privacy Tools"
+  },
+  {
+    "name": "Twittimer",
+    "description": "Schedule and analyze tweets",
+    "link": "https://twittimer.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Sleeping Time",
+    "description": "Detect Twitter user's sleeping schedule",
+    "link": "https://sleepingtime.org/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "TweetMap",
+    "description": "Visualize tweets on a map",
+    "link": "https://www.omnisci.com/demos/tweetmap",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "AllMyTweets",
+    "description": "View all tweets from a user",
+    "link": "https://www.allmytweets.net/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "SaveTweetVid",
+    "description": "Download Twitter videos",
+    "link": "https://www.savetweetvid.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Tiktok Scraper",
+    "description": "Download TikTok videos and metadata",
+    "link": "https://github.com/drawrowfly/tiktok-scraper",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Desuarchive",
+    "description": "4chan /a/ board archive",
+    "link": "https://desuarchive.org/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Telemetr.io",
+    "description": "Telegram analytics platform",
+    "link": "https://telemetr.io/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "VK People Search",
+    "description": "Search VK profiles",
+    "link": "https://vk.com/search",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "VK City4Me",
+    "description": "VK analytics tool",
+    "link": "https://vk.city4me.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Have I Been Sold",
+    "description": "Check if email was sold to spammers",
+    "link": "https://haveibeensold.app/",
+    "category": "Email"
+  },
+  {
+    "name": "BreachAlarm",
+    "description": "Check if email is in data breach",
+    "link": "https://breachalarm.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Email Format",
+    "description": "Find company email formats",
+    "link": "https://email-format.com/",
+    "category": "Email"
+  },
+  {
+    "name": "Emailrep.io Query",
+    "description": "Query email reputation score",
+    "link": "https://emailrep.io/query/",
+    "category": "Email"
+  },
+  {
+    "name": "Infoga",
+    "description": "Email OSINT gathering tool",
+    "link": "https://github.com/m4ll0k/Infoga",
+    "category": "Email"
+  },
+  {
+    "name": "LexisNexis",
+    "description": "Legal and business research",
+    "link": "https://www.lexisnexis.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Accurint",
+    "description": "Advanced people search by LexisNexis",
+    "link": "https://www.accurint.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Genealogy Bank",
+    "description": "Historical newspaper archive",
+    "link": "https://www.genealogybank.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "MyLife",
+    "description": "People search and reputation score",
+    "link": "https://www.mylife.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Classmates.com",
+    "description": "Find former classmates",
+    "link": "https://www.classmates.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "LinkedIn People Search",
+    "description": "Professional people search",
+    "link": "https://www.linkedin.com/search/results/people/",
+    "category": "People Search"
+  },
+  {
+    "name": "Alumni.net",
+    "description": "University alumni search",
+    "link": "https://www.alumni.net/",
+    "category": "People Search"
+  },
+  {
+    "name": "PeopleFinders",
+    "description": "People search and background check",
+    "link": "https://www.peoplefinders.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Sniffnet",
+    "description": "Application to monitor network traffic",
+    "link": "https://github.com/GyulyVGC/sniffnet",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "ZGrab2",
+    "description": "Application layer scanner",
+    "link": "https://github.com/zmap/zgrab2",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Fierce Domain Scanner",
+    "description": "Domain reconnaissance",
+    "link": "https://github.com/davidpepper/fierce-domain-scanner",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "SSLyze",
+    "description": "SSL/TLS server configuration analyzer",
+    "link": "https://github.com/nabla-c0d3/sslyze",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Tlsx",
+    "description": "Fast TLS grabber in Go",
+    "link": "https://github.com/projectdiscovery/tlsx",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Mapcidr",
+    "description": "CIDR/subnet calculation",
+    "link": "https://github.com/projectdiscovery/mapcidr",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "WhoisRequest",
+    "description": "WHOIS lookup with history",
+    "link": "https://whoisrequest.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "DNSHistory",
+    "description": "Historical DNS records lookup",
+    "link": "https://dnshistory.org/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Reverse DNS Lookup",
+    "description": "Find hostname from IP",
+    "link": "https://www.ipaddress.com/reverse-dns-lookup",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "DNS Checker",
+    "description": "Global DNS propagation checker",
+    "link": "https://www.whatsmydns.net/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "DNS Tools Online",
+    "description": "DNS lookup and analysis",
+    "link": "https://www.nslookup.io/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "Radar by Cloudflare",
+    "description": "Internet traffic insights",
+    "link": "https://radar.cloudflare.com/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "IPVoid IP Blacklist",
+    "description": "Check IP against 100+ blacklists",
+    "link": "https://www.ipvoid.com/ip-blacklist-check/",
+    "category": "Domain / IP / DNS"
+  },
+  {
+    "name": "SkyFi",
+    "description": "On-demand satellite imagery",
+    "link": "https://www.skyfi.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Google Earth Engine",
+    "description": "Planetary-scale geospatial analysis",
+    "link": "https://earthengine.google.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "MapHub",
+    "description": "Create custom maps",
+    "link": "https://maphub.net/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Kepler.gl",
+    "description": "Geospatial data visualization",
+    "link": "https://kepler.gl/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "OpenSnowMap",
+    "description": "Ski trails and winter sports map",
+    "link": "https://www.opensnowmap.org/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "GraphQLmap",
+    "description": "GraphQL security testing",
+    "link": "https://github.com/swisskyrepo/GraphQLmap",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "InQL",
+    "description": "GraphQL security scanner for Burp",
+    "link": "https://github.com/doyensec/inql",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Clairvoyance",
+    "description": "GraphQL API schema exploration",
+    "link": "https://github.com/nikitastupin/clairvoyance",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Postman DAST",
+    "description": "API security testing via Postman",
+    "link": "https://www.postman.com/api-security/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Charles Proxy",
+    "description": "HTTP debugging proxy",
+    "link": "https://www.charlesproxy.com/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Subhunter",
+    "description": "Multi-tool subdomain finder",
+    "link": "https://github.com/Starter-Labs/subhunter",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "SubBrute",
+    "description": "Subdomain brute force tool",
+    "link": "https://github.com/TheRook/subbrute",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "aiodnsbrute",
+    "description": "Async DNS brute force",
+    "link": "https://github.com/blark/aiodnsbrute",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Decompiler Explorer",
+    "description": "Online decompiler for binaries",
+    "link": "https://dogbolt.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Hex.pm",
+    "description": "Erlang/Elixir package manager",
+    "link": "https://hex.pm/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Maven Central",
+    "description": "Java package repository",
+    "link": "https://search.maven.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "NuGet Gallery",
+    "description": ".NET package repository",
+    "link": "https://www.nuget.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Packagist",
+    "description": "PHP package repository",
+    "link": "https://packagist.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "RubyGems",
+    "description": "Ruby package manager",
+    "link": "https://rubygems.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "crates.io",
+    "description": "Rust package registry",
+    "link": "https://crates.io/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "CocoaPods",
+    "description": "iOS dependency manager",
+    "link": "https://cocoapods.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "LGTMdotcom",
+    "description": "Code analysis platform by GitHub",
+    "link": "https://lgtm.com/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "MalwareTech",
+    "description": "Malware research blog",
+    "link": "https://www.malwaretech.com/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "OTX Pulse",
+    "description": "AlienVault threat intelligence sharing",
+    "link": "https://otx.alienvault.com/pulse/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "ReversingLabs",
+    "description": "Software supply chain security",
+    "link": "https://www.reversinglabs.com/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "CAPE Sandbox",
+    "description": "Malware configuration extraction sandbox",
+    "link": "https://capev2.readthedocs.io/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "VirusTotal Intelligence",
+    "description": "Premium threat hunting features",
+    "link": "https://www.virustotal.com/gui/intelligence-overview",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "OpenIOC",
+    "description": "Open indicators of compromise format",
+    "link": "https://github.com/mandiant/OpenIOC_1.1",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "STIX Viewer",
+    "description": "View STIX formatted threat data",
+    "link": "https://oasis-open.github.io/cti-stix-visualization/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "DShield",
+    "description": "SANS internet storm center data",
+    "link": "https://isc.sans.edu/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "MalwareBazaar Daily",
+    "description": "Daily malware sample feed",
+    "link": "https://bazaar.abuse.ch/export/",
+    "category": "Threat Intelligence"
+  },
+  {
+    "name": "ProQuest",
+    "description": "Academic research databases",
+    "link": "https://www.proquest.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "LexisNexis News",
+    "description": "Global news database",
+    "link": "https://www.lexisnexis.com/en-us/professional/news.page",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "EuVsDisinfo",
+    "description": "EU disinformation database",
+    "link": "https://euvsdisinfo.eu/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "PolitiFact",
+    "description": "Political fact checking",
+    "link": "https://www.politifact.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Full Fact",
+    "description": "UK fact checking charity",
+    "link": "https://fullfact.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "PDF X-Ray",
+    "description": "PDF analysis and visualization",
+    "link": "https://github.com/nickthedick/pdf-xray",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "Camelot",
+    "description": "Extract tables from PDFs in Python",
+    "link": "https://camelot-py.readthedocs.io/",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "Shuffle SOAR",
+    "description": "Open source SOAR platform",
+    "link": "https://shuffler.io/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Cortex XSOAR",
+    "description": "Security orchestration platform",
+    "link": "https://www.paloaltonetworks.com/cortex/cortex-xsoar",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Tines",
+    "description": "No-code automation for security",
+    "link": "https://www.tines.com/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Phantom (Splunk SOAR)",
+    "description": "Security orchestration",
+    "link": "https://www.splunk.com/en_us/products/splunk-security-orchestration-and-automation.html",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Demisto",
+    "description": "Security orchestration and automation",
+    "link": "https://www.demisto.com/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Swim Lane",
+    "description": "Security automation platform",
+    "link": "https://swimlane.com/",
+    "category": "OSINT Automation"
+  },
+  {
+    "name": "Prompt Injection Tester",
+    "description": "Test LLM prompt injections",
+    "link": "https://github.com/utkusen/promptmap",
+    "category": "LLM Security / AI Security"
+  },
+  {
+    "name": "HuggingFace Evaluate",
+    "description": "ML model evaluation library",
+    "link": "https://huggingface.co/docs/evaluate/",
+    "category": "LLM Security / AI Security"
+  },
+  {
+    "name": "Orion",
+    "description": "DFIR tool for macOS",
+    "link": "https://github.com/mac4n6/Orion",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "mac_apt",
+    "description": "macOS artifact parsing tool",
+    "link": "https://github.com/ydkhatri/mac_apt",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "MVPS",
+    "description": "Memory and volatile processor scanner",
+    "link": "https://github.com/jschicht/RawCopy",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "Windows Event Log Analyzer",
+    "description": "WELA timeline analyzer",
+    "link": "https://github.com/Yamato-Security/WELA",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "CyLR",
+    "description": "Live artifact collection tool",
+    "link": "https://github.com/orlikoski/CyLR",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "BrowserHistory",
+    "description": "Extract browser history",
+    "link": "https://github.com/nickthedick/browserhistory",
+    "category": "Forensics & IR"
+  },
+  {
+    "name": "BoredHumans",
+    "description": "AI-generated human faces",
+    "link": "https://boredhumans.com/faces.php",
+    "category": "ID Generator"
+  },
+  {
+    "name": "UIFaces",
+    "description": "Avatars for design mockups",
+    "link": "https://www.uifaces.co/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "RoboHash",
+    "description": "Generate robot avatars from text",
+    "link": "https://robohash.org/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "DiceBear Avatars",
+    "description": "Generated avatar API",
+    "link": "https://www.dicebear.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "Fake Data Generator",
+    "description": "Generate fake data in bulk",
+    "link": "https://www.mockaroo.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "PersonGenerator",
+    "description": "Random person generator",
+    "link": "https://personagenerator.com/",
+    "category": "ID Generator"
+  },
+  {
+    "name": "ShareX",
+    "description": "Screen capture and file sharing",
+    "link": "https://getsharex.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Flameshot",
+    "description": "Screenshot tool with annotations",
+    "link": "https://flameshot.org/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Coggle",
+    "description": "Collaborative mind mapping",
+    "link": "https://coggle.it/",
+    "category": "Productivity"
+  },
+  {
+    "name": "The Brain",
+    "description": "Dynamic mind mapping and knowledge management",
+    "link": "https://www.thebrain.com/",
+    "category": "Productivity"
+  },
+  {
+    "name": "Maltego CaseFile",
+    "description": "Offline intelligence analysis",
+    "link": "https://www.maltego.com/categories/casefile/",
+    "category": "Productivity"
   }
 ];
