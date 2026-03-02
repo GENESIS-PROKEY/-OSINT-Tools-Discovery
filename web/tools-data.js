@@ -1,6 +1,6 @@
 // Auto-generated
-// Total tools: 1981
-// Categories: 95
+// Total tools: 2178
+// Categories: 146
 
 const TOOLS_DATA = [
   {
@@ -11888,103 +11888,1187 @@ const TOOLS_DATA = [
     "description": "SOC analyst training simulation",
     "link": "https://letsdefend.io/",
     "category": "CTF & Practice"
+  },
+  {
+    "name": "Zmap",
+    "description": "Internet-wide network scanner",
+    "link": "https://zmap.io/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Angry IP Scanner",
+    "description": "Fast and friendly network scanner",
+    "link": "https://angryip.org/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Advanced IP Scanner",
+    "description": "Network scanner for Windows",
+    "link": "https://www.advanced-ip-scanner.com/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Netcat",
+    "description": "TCP/UDP networking utility",
+    "link": "https://nmap.org/ncat/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Hping3",
+    "description": "TCP/IP packet assembler/analyzer",
+    "link": "https://github.com/antirez/hping",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Unicornscan",
+    "description": "Asynchronous stateless TCP/UDP scanner",
+    "link": "https://github.com/dneufeld/unicornscan",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "ScanRand",
+    "description": "Stateless TCP port scanner",
+    "link": "https://www.phrack.org/issues/66/11.html",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Zenmap",
+    "description": "Official Nmap GUI",
+    "link": "https://nmap.org/zenmap/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "NetDiscover",
+    "description": "ARP reconnaissance tool",
+    "link": "https://github.com/netdiscover-scanner/netdiscover",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Fping",
+    "description": "Ping multiple hosts at once",
+    "link": "https://fping.org/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Scapy",
+    "description": "Packet manipulation in Python",
+    "link": "https://scapy.net/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "NetworkMiner",
+    "description": "Network forensic analysis tool",
+    "link": "https://www.netresec.com/index.ashx?page=NetworkMiner",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "p0f",
+    "description": "Passive OS fingerprinting",
+    "link": "https://lcamtuf.coredump.cx/p0f3/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Ettercap",
+    "description": "Network security tool for MITM attacks",
+    "link": "https://www.ettercap-project.org/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "ARPWatch",
+    "description": "Monitor ARP activity on network",
+    "link": "https://ee.lbl.gov/",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Altdns",
+    "description": "Subdomain discovery through alterations",
+    "link": "https://github.com/infosec-au/altdns",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "PureDNS",
+    "description": "Fast DNS bruteforcing with wildcard filtering",
+    "link": "https://github.com/d3mondev/puredns",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Aquatone",
+    "description": "Visual inspection of websites across subdomains",
+    "link": "https://github.com/michenriksen/aquatone",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Goaltdns",
+    "description": "Subdomain permutation generator in Go",
+    "link": "https://github.com/subfinder/goaltdns",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Hakrevdns",
+    "description": "Reverse DNS lookup utility",
+    "link": "https://github.com/hakluke/hakrevdns",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Censys Subdomain Finder",
+    "description": "Find subdomains via Censys",
+    "link": "https://github.com/christophetd/censys-subdomain-finder",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Sudomy",
+    "description": "Subdomain enumeration & analysis",
+    "link": "https://github.com/screetsec/Sudomy",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Vita",
+    "description": "Subdomain enumeration tool in Rust",
+    "link": "https://github.com/junnlikestea/vita",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Dalfox",
+    "description": "Parameter analysis and XSS scanner",
+    "link": "https://github.com/hahwul/dalfox",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "testssl.sh",
+    "description": "Testing TLS/SSL encryption",
+    "link": "https://testssl.sh/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "SSLScan",
+    "description": "SSL/TLS scanner",
+    "link": "https://github.com/rbsec/sslscan",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Arachni",
+    "description": "Web application security scanner",
+    "link": "https://www.arachni-scanner.com/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Burp Suite Community",
+    "description": "Web vulnerability scanner",
+    "link": "https://portswigger.net/burp/communitydownload",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Trivy",
+    "description": "Vulnerability scanner for containers",
+    "link": "https://github.com/aquasecurity/trivy",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Grype",
+    "description": "Vulnerability scanner for container images",
+    "link": "https://github.com/anchore/grype",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Vuls",
+    "description": "Agent-less vulnerability scanner for Linux",
+    "link": "https://vuls.io/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "CrowdSec",
+    "description": "Collaborative security engine",
+    "link": "https://www.crowdsec.net/",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Tsunami",
+    "description": "Network security scanner by Google",
+    "link": "https://github.com/google/tsunami-security-scanner",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "IntelTechniques",
+    "description": "OSINT tools and training by Michael Bazzell",
+    "link": "https://inteltechniques.com/tools/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Buscador",
+    "description": "OSINT virtual machine",
+    "link": "https://inteltechniques.com/buscador/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "TraceLabs OSINT VM",
+    "description": "Pre-configured OSINT virtual machine",
+    "link": "https://www.tracelabs.org/initiatives/osint-vm",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "CSI Linux",
+    "description": "Cyber security investigation platform",
+    "link": "https://csilinux.com/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Tsurugi Linux",
+    "description": "DFIR and OSINT Linux distro",
+    "link": "https://tsurugi-linux.org/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "OSINT Combine",
+    "description": "OSINT tools and tradecraft",
+    "link": "https://www.osintcombine.com/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Belati",
+    "description": "Traditional Swiss army knife for OSINT",
+    "link": "https://github.com/aancw/Belati",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Creepy",
+    "description": "Geolocation OSINT tool",
+    "link": "https://github.com/ilektrojohn/creepy",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "FastPeopleSearch",
+    "description": "Free people finder",
+    "link": "https://www.fastpeoplesearch.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "411.com",
+    "description": "Find people and businesses",
+    "link": "https://www.411.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "FamilyTreeNow",
+    "description": "Free genealogy and people search",
+    "link": "https://www.familytreenow.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "SearchPeopleFree",
+    "description": "People search engine",
+    "link": "https://www.searchpeoplefree.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "ClustrMaps",
+    "description": "People search with map visualizations",
+    "link": "https://clustrmaps.com/persons/",
+    "category": "People Search"
+  },
+  {
+    "name": "SocialCatfish",
+    "description": "Verify online identities",
+    "link": "https://socialcatfish.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Maigret",
+    "description": "Collect person's account info by username",
+    "link": "https://github.com/soxoj/maigret",
+    "category": "Username OSINT"
+  },
+  {
+    "name": "UserRecon",
+    "description": "Script to find usernames on social media",
+    "link": "https://github.com/issamelferkh/userrecon",
+    "category": "Username OSINT"
+  },
+  {
+    "name": "Torch",
+    "description": "Tor search engine",
+    "link": "http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "DarkSearch",
+    "description": "Dark web search engine",
+    "link": "https://darksearch.io/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Onion.live",
+    "description": "Tor hidden services uptime monitor",
+    "link": "https://onion.live/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Haystak",
+    "description": "Tor search engine",
+    "link": "https://haystak5njsmn2hqkewecpaxetahtwhsbsa64jom2k22z5afxhnpxfid.onion/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "ExoneraTor",
+    "description": "Check if a Tor relay was running on date",
+    "link": "https://metrics.torproject.org/exonerator.html",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Blockchair",
+    "description": "Universal blockchain explorer",
+    "link": "https://blockchair.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Arbiscan",
+    "description": "Arbitrum blockchain explorer",
+    "link": "https://arbiscan.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "SnowTrace",
+    "description": "Avalanche blockchain explorer",
+    "link": "https://snowtrace.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "BitcoinAbuse",
+    "description": "Report bitcoin addresses used by scammers",
+    "link": "https://www.bitcoinabuse.com/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "Misttrack",
+    "description": "Blockchain tracking and AML",
+    "link": "https://misttrack.io/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "FlightAware",
+    "description": "Flight tracking and data",
+    "link": "https://www.flightaware.com/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "RadioReference",
+    "description": "Radio communications database",
+    "link": "https://www.radioreference.com/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "WebSDR",
+    "description": "Software-defined radio receiver online",
+    "link": "http://www.websdr.org/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "VINDecoder",
+    "description": "Decode vehicle VIN numbers",
+    "link": "https://www.vindecoder.net/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "NHTSA VIN Decoder",
+    "description": "Official US vehicle VIN decoder",
+    "link": "https://vpic.nhtsa.dot.gov/decoder/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "SearchQuarry",
+    "description": "License plate lookup",
+    "link": "https://www.searchquarry.com/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "Ship Finder",
+    "description": "Live ship tracking",
+    "link": "https://shipfinder.co/",
+    "category": "Vehicle OSINT"
+  },
+  {
+    "name": "Mapillary",
+    "description": "Street-level imagery platform",
+    "link": "https://www.mapillary.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "ShadowCalculator",
+    "description": "Calculate shadow direction by location/time",
+    "link": "https://www.shadowcalculator.eu/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Sentinel Hub",
+    "description": "Satellite imagery browser",
+    "link": "https://apps.sentinel-hub.com/eo-browser/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Wikimapia",
+    "description": "Open-content collaborative mapping",
+    "link": "https://wikimapia.org/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Google Earth Pro",
+    "description": "Desktop satellite imagery and 3D views",
+    "link": "https://www.google.com/earth/about/versions/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Twint",
+    "description": "Twitter Intelligence without API",
+    "link": "https://github.com/twintproject/twint",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Nitter",
+    "description": "Privacy-focused Twitter frontend",
+    "link": "https://nitter.net/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "InstaLoader",
+    "description": "Download Instagram profiles data",
+    "link": "https://github.com/instaloader/instaloader",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "StorySaver",
+    "description": "Save Instagram stories",
+    "link": "https://storysaver.net/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Bibliogram",
+    "description": "Privacy-focused Instagram frontend",
+    "link": "https://bibliogram.art/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Lookup-ID",
+    "description": "Find Facebook profile ID",
+    "link": "https://lookup-id.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "StalkFace",
+    "description": "Facebook stalking tool",
+    "link": "https://stalkface.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "RedditSearch.io",
+    "description": "Search Reddit posts and comments",
+    "link": "https://redditsearch.io/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Pushshift Reddit",
+    "description": "Reddit data archive",
+    "link": "https://api.pushshift.io/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "LinkedIn OSINT",
+    "description": "LinkedIn people and company search",
+    "link": "https://www.linkedin.com/search/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "TikTok OSINT",
+    "description": "TikTok user analytics",
+    "link": "https://www.exolyt.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Hunter.io",
+    "description": "Find email addresses by domain",
+    "link": "https://hunter.io/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "Holehe",
+    "description": "Check if email is used on different sites",
+    "link": "https://github.com/megadose/holehe",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "MailTester",
+    "description": "Test email deliverability",
+    "link": "https://www.mail-tester.com/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "EmailHippo",
+    "description": "Email verification service",
+    "link": "https://tools.emailhippo.com/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "Clearbit Connect",
+    "description": "Find emails in Gmail",
+    "link": "https://clearbit.com/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "MailboxValidator",
+    "description": "Email validation service",
+    "link": "https://www.mailboxvalidator.com/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "Any.run",
+    "description": "Interactive malware analysis sandbox",
+    "link": "https://any.run/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "PE Studio",
+    "description": "Malware initial assessment",
+    "link": "https://www.winitor.com/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Ghidra",
+    "description": "NSA reverse engineering framework",
+    "link": "https://ghidra-sre.org/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "IDA Free",
+    "description": "Binary code analysis tool",
+    "link": "https://hex-rays.com/ida-free/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "REMnux",
+    "description": "Linux toolkit for reverse engineering malware",
+    "link": "https://remnux.org/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "InQuest Labs",
+    "description": "Threat intelligence and analysis tools",
+    "link": "https://labs.inquest.net/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "Volatility",
+    "description": "Memory forensics framework",
+    "link": "https://www.volatilityfoundation.org/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Bulk Extractor",
+    "description": "Extract information from disk images",
+    "link": "https://github.com/simsong/bulk_extractor",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Hindsight",
+    "description": "Chrome/Chromium forensics",
+    "link": "https://github.com/obsidianforensics/hindsight",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "ALEAPP",
+    "description": "Android logs events & protobuf parser",
+    "link": "https://github.com/abrignoni/ALEAPP",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "iLEAPP",
+    "description": "iOS logs events & plists parser",
+    "link": "https://github.com/abrignoni/iLEAPP",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Magnet Axiom",
+    "description": "Digital investigation platform",
+    "link": "https://www.magnetforensics.com/products/magnet-axiom/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Hashes.com",
+    "description": "Hash lookup and cracking",
+    "link": "https://hashes.com/",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "CMD5",
+    "description": "MD5 hash decryption",
+    "link": "https://www.cmd5.org/",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "Hash Identifier",
+    "description": "Identify hash types",
+    "link": "https://hashes.com/en/tools/hash_identifier",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "RockYou2024",
+    "description": "Largest password compilation",
+    "link": "https://github.com/ffreemt/rockyou2024",
+    "category": "Password & Hash Tools"
+  },
+  {
+    "name": "CloudEnum",
+    "description": "Multi-cloud OSINT enumeration",
+    "link": "https://github.com/initstring/cloud_enum",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "Censys",
+    "description": "Internet device search engine",
+    "link": "https://search.censys.io/",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "BinaryEdge",
+    "description": "Internet scanning platform",
+    "link": "https://app.binaryedge.io/",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "CheckPhish",
+    "description": "URL phishing detection",
+    "link": "https://checkphish.bolster.ai/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "PhishStats",
+    "description": "Phishing URL statistics",
+    "link": "https://phishstats.info/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "ExpandURL",
+    "description": "Expand shortened URLs",
+    "link": "https://www.expandurl.net/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "Unshorten.It",
+    "description": "Unshorten URLs safely",
+    "link": "https://unshorten.it/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "CheckShortURL",
+    "description": "Expand short URLs",
+    "link": "https://checkshorturl.com/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "Google Safe Browsing",
+    "description": "Check site safety",
+    "link": "https://transparencyreport.google.com/safe-browsing/search",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "Sucuri SiteCheck",
+    "description": "Free website malware scanner",
+    "link": "https://sitecheck.sucuri.net/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "Norton Safe Web",
+    "description": "Website safety check",
+    "link": "https://safeweb.norton.com/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "CVE Details",
+    "description": "CVE security vulnerability database",
+    "link": "https://www.cvedetails.com/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "NVD NIST",
+    "description": "National Vulnerability Database",
+    "link": "https://nvd.nist.gov/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "Vulners",
+    "description": "Vulnerability database search",
+    "link": "https://vulners.com/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "Packet Storm",
+    "description": "Security tools and exploits",
+    "link": "https://packetstormsecurity.com/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "AttackerKB",
+    "description": "Vulnerability assessment community",
+    "link": "https://attackerkb.com/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "CISA KEV",
+    "description": "Known exploited vulnerabilities catalog",
+    "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "OpenCTI",
+    "description": "Open cyber threat intelligence platform",
+    "link": "https://www.opencti.io/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "YETI",
+    "description": "Your everyday threat intelligence",
+    "link": "https://yeti-platform.io/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "CRITs",
+    "description": "Collaborative research into threats",
+    "link": "https://crits.github.io/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "STIX/TAXII",
+    "description": "Threat intelligence sharing standards",
+    "link": "https://oasis-open.github.io/cti-documentation/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "Anomali ThreatStream",
+    "description": "Threat intelligence management",
+    "link": "https://www.anomali.com/products/threatstream",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "Wappalyzer",
+    "description": "Identify technologies on websites",
+    "link": "https://www.wappalyzer.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "WhatRuns",
+    "description": "Discover technologies behind any website",
+    "link": "https://www.whatruns.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Netcraft",
+    "description": "Internet security services and data",
+    "link": "https://www.netcraft.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "WhatWeb",
+    "description": "Next generation web scanner",
+    "link": "https://github.com/urbanadventurer/WhatWeb",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Webcheck.me",
+    "description": "Website technology checker",
+    "link": "https://web-check.xyz/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "SimilarTech",
+    "description": "Website technology market share",
+    "link": "https://www.similartech.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "W3Techs",
+    "description": "Web technology surveys",
+    "link": "https://w3techs.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Sitereport",
+    "description": "Detailed website analysis",
+    "link": "https://sitereport.netcraft.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "PageXray",
+    "description": "Website technology detection",
+    "link": "https://pagexray.fouanalytics.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "DomainBigData",
+    "description": "Domain and registrant research",
+    "link": "https://domainbigdata.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "WhoisXML API",
+    "description": "Domain and WHOIS data API",
+    "link": "https://whoisxmlapi.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "DomainTools",
+    "description": "Domain name research and monitoring",
+    "link": "https://www.domaintools.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "BGPView",
+    "description": "BGP toolkit and analytics",
+    "link": "https://bgpview.io/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "IPGeolocation.io",
+    "description": "IP geolocation lookup",
+    "link": "https://ipgeolocation.io/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "ARIN",
+    "description": "American IP registry WHOIS",
+    "link": "https://www.arin.net/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "RIPE NCC",
+    "description": "European IP registry",
+    "link": "https://www.ripe.net/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "Google Lens",
+    "description": "Visual search by Google",
+    "link": "https://lens.google.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "PimEyes",
+    "description": "Face recognition search engine",
+    "link": "https://pimeyes.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Forensically",
+    "description": "Image forensics tool suite",
+    "link": "https://29a.ch/photo-forensics/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Image Edited?",
+    "description": "Check if an image was edited",
+    "link": "https://imageedited.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "EXIF Viewer",
+    "description": "Online EXIF data viewer",
+    "link": "https://exif.tools/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Censys Certificates",
+    "description": "Search SSL/TLS certificates",
+    "link": "https://search.censys.io/certificates",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "SSL Labs",
+    "description": "SSL/TLS server test",
+    "link": "https://www.ssllabs.com/ssltest/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "CertSpotter",
+    "description": "Certificate transparency monitor",
+    "link": "https://sslmate.com/certspotter/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "CertStream",
+    "description": "Real-time certificate transparency log",
+    "link": "https://certstream.calidog.io/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "Hardenize",
+    "description": "Network and security configuration test",
+    "link": "https://www.hardenize.com/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "ImmuniWeb",
+    "description": "Free SSL/TLS security test",
+    "link": "https://www.immuniweb.com/ssl/",
+    "category": "SSL & Certificate OSINT"
+  },
+  {
+    "name": "GitLab Search",
+    "description": "Search code on GitLab",
+    "link": "https://gitlab.com/explore",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "SourceGraph",
+    "description": "Universal code search",
+    "link": "https://sourcegraph.com/search",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Snyk Advisor",
+    "description": "Open source package health",
+    "link": "https://snyk.io/advisor/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "npm Trends",
+    "description": "Compare NPM package downloads",
+    "link": "https://npmtrends.com/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "PyPI",
+    "description": "Python package index",
+    "link": "https://pypi.org/",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "Wayback CDX API",
+    "description": "Search web archives programmatically",
+    "link": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+    "category": "Code OSINT"
+  },
+  {
+    "name": "CellTower Locator",
+    "description": "Cell tower map and locator",
+    "link": "https://www.cellphonetrackers.org/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Mozilla Location Service",
+    "description": "Geolocation lookup service",
+    "link": "https://location.services.mozilla.com/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "Tower Data",
+    "description": "Cell tower database",
+    "link": "https://www.antenna-tower.com/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "CellMapper",
+    "description": "Cell tower coverage mapping",
+    "link": "https://www.cellmapper.net/",
+    "category": "Wireless Network OSINT"
+  },
+  {
+    "name": "LinkedIn",
+    "description": "Professional networking and company info",
+    "link": "https://www.linkedin.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "SEC EDGAR",
+    "description": "US company filings search",
+    "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "ImportYeti",
+    "description": "Search US import records",
+    "link": "https://www.importyeti.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Panjiva",
+    "description": "Global trade intelligence",
+    "link": "https://panjiva.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Shodan Exploits",
+    "description": "Search for exploits by CVE",
+    "link": "https://exploits.shodan.io/",
+    "category": "Infrastructure OSINT"
+  },
+  {
+    "name": "URLVoid",
+    "description": "Website reputation checker",
+    "link": "https://www.urlvoid.com/",
+    "category": "Infrastructure OSINT"
+  },
+  {
+    "name": "IPVoid",
+    "description": "IP address reputation tools",
+    "link": "https://www.ipvoid.com/",
+    "category": "Infrastructure OSINT"
+  },
+  {
+    "name": "Tails",
+    "description": "Portable amnesic incognito live system",
+    "link": "https://tails.net/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Tor Browser",
+    "description": "Anonymous web browsing",
+    "link": "https://www.torproject.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Mullvad VPN",
+    "description": "Privacy-focused VPN",
+    "link": "https://mullvad.net/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "DNSCrypt",
+    "description": "Protocol for securing DNS traffic",
+    "link": "https://dnscrypt.info/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Pi-hole",
+    "description": "Network-wide ad blocker",
+    "link": "https://pi-hole.net/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "APKMirror",
+    "description": "Android APK download archive",
+    "link": "https://www.apkmirror.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "APKPure",
+    "description": "APK download and Android app store",
+    "link": "https://apkpure.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "Apktool",
+    "description": "Android APK reverse engineering",
+    "link": "https://apktool.org/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "AndroGuard",
+    "description": "Android application analysis",
+    "link": "https://github.com/androguard/androguard",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "GDELT Project",
+    "description": "Global database of events and media",
+    "link": "https://www.gdeltproject.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Media Cloud",
+    "description": "Open source media analysis platform",
+    "link": "https://mediacloud.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "NewspaperMap",
+    "description": "Newspapers around the world",
+    "link": "https://newspapermap.com/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "Bellingcat Online Toolkit",
+    "description": "OSINT tools curated by Bellingcat",
+    "link": "https://docs.google.com/spreadsheets/d/18rtqh8EG2q1xBo2cLNyhIDuK9jrPGwYr9DI2UncoqJQ/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "FactCheck.org",
+    "description": "Political fact-checking",
+    "link": "https://www.factcheck.org/",
+    "category": "News & Media OSINT"
+  },
+  {
+    "name": "mat2",
+    "description": "Metadata removal tool",
+    "link": "https://0xacab.org/jvoisin/mat2",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "PDF Examiner",
+    "description": "Analyze PDF files for malware",
+    "link": "https://www.pdfexaminer.com/",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "OLETools",
+    "description": "Analyze MS Office files",
+    "link": "https://github.com/decalage2/oletools",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "Didier Stevens Tools",
+    "description": "PDF and Office analysis tools",
+    "link": "https://blog.didierstevens.com/my-software/",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "binwalk",
+    "description": "Firmware analysis tool",
+    "link": "https://github.com/ReFirmLabs/binwalk",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "strings",
+    "description": "Extract printable strings from files",
+    "link": "https://docs.microsoft.com/en-us/sysinternals/downloads/strings",
+    "category": "Document Analysis"
+  },
+  {
+    "name": "Elasticsearch",
+    "description": "Distributed search and analytics engine",
+    "link": "https://www.elastic.co/elasticsearch/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Kibana",
+    "description": "Elasticsearch data visualization",
+    "link": "https://www.elastic.co/kibana/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Splunk Free",
+    "description": "Data analytics platform",
+    "link": "https://www.splunk.com/en_us/download/splunk-enterprise.html",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Graylog",
+    "description": "Open source log management",
+    "link": "https://graylog.org/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Wazuh",
+    "description": "Open source security platform",
+    "link": "https://wazuh.com/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "OSSEC",
+    "description": "Open source HIDS",
+    "link": "https://www.ossec.net/",
+    "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Security Onion",
+    "description": "Threat hunting and NSM platform",
+    "link": "https://securityonionsolutions.com/",
+    "category": "SIEM & Log Analysis"
   }
-];
-
-const CATEGORIES = [
-  "AI Tools",
-  "Breaches & Leaks",
-  "Basic OSINT",
-  "Reconnaissance",
-  "Productivity",
-  "OSINT Challenges",
-  "File Upload",
-  "Toolset",
-  "Throwaway Contact",
-  "ID Generator",
-  "Emulators",
-  "Hash Recovery",
-  "Downloaders",
-  "Privacy / Security",
-  "Secure Communication",
-  "Resources",
-  "Weather",
-  "Threat Intelligence",
-  "Identity Resolution",
-  "Unified Search",
-  "People Search",
-  "Username",
-  "Email",
-  "Phone",
-  "Social Media",
-  "Facebook",
-  "Twitter/X",
-  "YouTube",
-  "Reddit",
-  "LinkedIn",
-  "Google",
-  "Google Dorking",
-  "Discord",
-  "Twitch",
-  "Instagram",
-  "Telegram",
-  "Snapchat",
-  "TikTok",
-  "Steam",
-  "Clubhouse",
-  "Bots",
-  "Analytics",
-  "Blogs",
-  "News",
-  "Search Engines",
-  "Google CSE",
-  "Images & Audio",
-  "License Plate / VIN / Vehicle",
-  "Flight Tracker",
-  "Maritime",
-  "Open Directory",
-  "Datasets",
-  "Source Codes",
-  "WHOIS",
-  "Domain / IP / DNS",
-  "Malware",
-  "IoT",
-  "Radio",
-  "Resolvers",
-  "Real Estate",
-  "Corporation (Canada)",
-  "Maps",
-  "Geolocation",
-  "Cryptocurrency",
-  "Darknet",
-  "Data Dump",
-  "Extremist / Far-Right",
-  "Finance",
-  "Business",
-  "Police / LE / Fed",
-  "Informant",
-  "Resident Database",
-  "Public Records",
-  "Government",
-  "OnlyFans",
-  "Vehicle / Transportation",
-  "Blockchain / Crypto Investigation",
-  "OSINT Training",
-  "Bug Bounty / Security Research",
-  "LLM Security / AI Security",
-  "Other Resources",
-  "Browser Extensions",
-  "OSINT Automation",
-  "Network Forensics",
-  "Wireless & Bluetooth",
-  "Cloud Infrastructure",
-  "Document Analysis",
-  "Password & Credentials",
-  "CTF & Practice",
-  "Forensics & IR",
-  "Phishing & Social Engineering",
-  "OCR & Text Extraction",
-  "WhatsApp",
-  "Web Archives",
-  "Face Recognition"
 ];
