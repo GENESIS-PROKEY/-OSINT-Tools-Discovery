@@ -1,5 +1,5 @@
 // Auto-generated
-// Total tools: 2178
+// Total tools: 2287
 // Categories: 146
 
 const TOOLS_DATA = [
@@ -13070,5 +13070,659 @@ const TOOLS_DATA = [
     "description": "Threat hunting and NSM platform",
     "link": "https://securityonionsolutions.com/",
     "category": "SIEM & Log Analysis"
+  },
+  {
+    "name": "Dnsenum",
+    "description": "DNS enumeration tool",
+    "link": "https://github.com/fwaeytens/dnsenum",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "dnstwist",
+    "description": "Domain name permutation engine for phishing",
+    "link": "https://github.com/elceef/dnstwist",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Sn1per",
+    "description": "Automated pentest recon scanner",
+    "link": "https://github.com/1N3/Sn1per",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "LazyRecon",
+    "description": "Automated reconnaissance workflow",
+    "link": "https://github.com/nahamsec/lazyrecon",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "FinalRecon",
+    "description": "All-in-one web recon tool",
+    "link": "https://github.com/thewhiteh4t/FinalRecon",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Striker",
+    "description": "Offensive information and vulnerability scanner",
+    "link": "https://github.com/s0md3v/Striker",
+    "category": "Reconnaissance"
+  },
+  {
+    "name": "Responder",
+    "description": "LLMNR/NBT-NS/MDNS poisoner",
+    "link": "https://github.com/lgandx/Responder",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Impacket",
+    "description": "Network protocols Python library",
+    "link": "https://github.com/fortra/impacket",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Evil-WinRM",
+    "description": "Windows remote management shell",
+    "link": "https://github.com/Hackplayers/evil-winrm",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "CrackMapExec",
+    "description": "Post-exploitation tool for Windows/AD",
+    "link": "https://github.com/byt3bl33d3r/CrackMapExec",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "BloodHound",
+    "description": "Active Directory attack graph",
+    "link": "https://github.com/BloodHoundAD/BloodHound",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Kerbrute",
+    "description": "Kerberos brute-force tool",
+    "link": "https://github.com/ropnop/kerbrute",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Enum4linux-ng",
+    "description": "Linux SMB enumeration tool",
+    "link": "https://github.com/cddmp/enum4linux-ng",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "SMBMap",
+    "description": "SMB share enumeration tool",
+    "link": "https://github.com/ShawnDEvans/smbmap",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Netexec",
+    "description": "Network service exploitation tool",
+    "link": "https://github.com/Pennyw0rth/NetExec",
+    "category": "Network Reconnaissance"
+  },
+  {
+    "name": "Subzy",
+    "description": "Subdomain takeover checker",
+    "link": "https://github.com/PentestPad/subzy",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Subjack",
+    "description": "Subdomain takeover tool",
+    "link": "https://github.com/haccer/subjack",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "OneForAll",
+    "description": "Powerful subdomain collection tool",
+    "link": "https://github.com/shmilylty/OneForAll",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "Subfuz",
+    "description": "Subdomain brute-force fuzzer",
+    "link": "https://github.com/mxrch/subfuz",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "ct-exposer",
+    "description": "Find subdomains via Certificate Transparency",
+    "link": "https://github.com/chris408/ct-exposer",
+    "category": "Subdomain Enumeration"
+  },
+  {
+    "name": "CorsMe",
+    "description": "CORS misconfiguration scanner",
+    "link": "https://github.com/shivangx01b/CorsMe",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Corsy",
+    "description": "CORS misconfiguration finder",
+    "link": "https://github.com/s0md3v/Corsy",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Tplmap",
+    "description": "Template injection exploitation",
+    "link": "https://github.com/epinna/tplmap",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "SSRFmap",
+    "description": "SSRF exploitation tool",
+    "link": "https://github.com/swisskyrepo/SSRFmap",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Smuggler",
+    "description": "HTTP request smuggling tester",
+    "link": "https://github.com/defparam/smuggler",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "JWT Tool",
+    "description": "JWT token testing toolkit",
+    "link": "https://github.com/ticarpi/jwt_tool",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "OpenRedireX",
+    "description": "Open redirect vulnerability finder",
+    "link": "https://github.com/devanshbatham/OpenRedireX",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "CMSMap",
+    "description": "CMS vulnerability scanner",
+    "link": "https://github.com/Dionach/CMSmap",
+    "category": "Vulnerability Scanning"
+  },
+  {
+    "name": "Yasni",
+    "description": "People search and online reputation",
+    "link": "https://www.yasni.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "That'sThem",
+    "description": "Free reverse lookup",
+    "link": "https://thatsthem.com/reverse-email-lookup",
+    "category": "People Search"
+  },
+  {
+    "name": "CocoFinder",
+    "description": "People search and background check",
+    "link": "https://cocofinder.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "Cubib",
+    "description": "Free people search",
+    "link": "https://cubib.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "VoterRecords",
+    "description": "Free voter registration records",
+    "link": "https://voterrecords.com/",
+    "category": "People Search"
+  },
+  {
+    "name": "SocialScan",
+    "description": "Check email and username availability",
+    "link": "https://github.com/iojw/socialscan",
+    "category": "Username OSINT"
+  },
+  {
+    "name": "Investigo",
+    "description": "Find usernames and download accounts data",
+    "link": "https://github.com/tdh8316/Investigo",
+    "category": "Username OSINT"
+  },
+  {
+    "name": "DetectDee",
+    "description": "Find social media accounts by username",
+    "link": "https://github.com/piaolin/DetectDee",
+    "category": "Username OSINT"
+  },
+  {
+    "name": "Twayback",
+    "description": "Download deleted tweets from Wayback Machine",
+    "link": "https://github.com/Mennaruuk/twayback",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "SocialBlade",
+    "description": "Social media statistics",
+    "link": "https://socialblade.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Vidnoz",
+    "description": "AI-based video and social intelligence",
+    "link": "https://www.vidnoz.com/",
+    "category": "Social Media OSINT"
+  },
+  {
+    "name": "Skymem",
+    "description": "Find email addresses by domain",
+    "link": "https://www.skymem.info/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "Email Checker",
+    "description": "Free email verification tool",
+    "link": "https://email-checker.net/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "RocketReach",
+    "description": "Find email and phone for professionals",
+    "link": "https://rocketreach.co/",
+    "category": "Email OSINT"
+  },
+  {
+    "name": "Recon.cloud",
+    "description": "Cloud and dark web exposure monitoring",
+    "link": "https://recon.cloud/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Dark Web ID",
+    "description": "Dark web credential monitoring",
+    "link": "https://www.idagent.com/dark-web-id/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Flare Systems",
+    "description": "Dark web and illicit marketplace monitor",
+    "link": "https://flare.systems/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "SpiderFoot HX",
+    "description": "OSINT with dark web intelligence",
+    "link": "https://www.spiderfoot.net/",
+    "category": "Dark Web OSINT"
+  },
+  {
+    "name": "Katana (Crypto)",
+    "description": "Cross-chain analytics tool",
+    "link": "https://katana.so/",
+    "category": "Cryptocurrency OSINT"
+  },
+  {
+    "name": "GeoHints",
+    "description": "Geolocation clues for GeoGuessr",
+    "link": "https://geohints.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "ReverseLookup.network",
+    "description": "Street camera geolocation",
+    "link": "https://www.reverselookup.network/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "OpenAerialMap",
+    "description": "Open satellite and aerial imagery",
+    "link": "https://openaerialmap.org/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Landsat Explorer",
+    "description": "NASA satellite imagery viewer",
+    "link": "https://landsatexplorer.usgs.gov/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "FIRMS",
+    "description": "NASA fire information for resource management",
+    "link": "https://firms.modaps.eosdis.nasa.gov/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Descartes Labs",
+    "description": "Geospatial intelligence platform",
+    "link": "https://www.descarteslabs.com/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "Echosec",
+    "description": "Location-based social media search",
+    "link": "https://www.echosec.net/",
+    "category": "Geolocation OSINT"
+  },
+  {
+    "name": "MalAPI",
+    "description": "Windows API calls used by malware",
+    "link": "https://malapi.io/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "VirusShare",
+    "description": "Malware sample repository",
+    "link": "https://virusshare.com/",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "MalwareBytesLab",
+    "description": "Latest malware threat research",
+    "link": "https://www.malwarebytes.com/blog/threat-intelligence",
+    "category": "Malware Analysis"
+  },
+  {
+    "name": "DEFT Linux",
+    "description": "Digital evidence forensics toolkit",
+    "link": "https://www.deftlinux.net/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "RegRipper",
+    "description": "Windows registry analysis",
+    "link": "https://github.com/keydet89/RegRipper3.0",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Rekall",
+    "description": "Advanced memory forensic framework",
+    "link": "https://github.com/google/rekall",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "OSForensics",
+    "description": "Digital forensics investigation tool",
+    "link": "https://www.osforensics.com/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "Timesketch",
+    "description": "Collaborative forensic timeline analysis",
+    "link": "https://timesketch.org/",
+    "category": "Digital Forensics"
+  },
+  {
+    "name": "GnuRadio",
+    "description": "Software radio toolkit",
+    "link": "https://www.gnuradio.org/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "RTL-SDR",
+    "description": "Low-cost software defined radio",
+    "link": "https://www.rtl-sdr.com/",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "BLE Scanner",
+    "description": "Bluetooth Low Energy scanner",
+    "link": "https://github.com/niccokunzmann/ble-scanner",
+    "category": "Wireless & RF"
+  },
+  {
+    "name": "Mandiant Advantage",
+    "description": "Multi-vendor threat intelligence",
+    "link": "https://www.mandiant.com/advantage/threat-intelligence",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "Maltiverse",
+    "description": "Open threat intelligence platform",
+    "link": "https://maltiverse.com/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "PhishLabs",
+    "description": "Digital risk protection",
+    "link": "https://www.phishlabs.com/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "SSL Blacklist",
+    "description": "Malicious SSL cert detection",
+    "link": "https://sslbl.abuse.ch/",
+    "category": "Threat Intelligence Platforms"
+  },
+  {
+    "name": "dorkbot",
+    "description": "Scan Google search results for vulnerabilities",
+    "link": "https://github.com/utiso/dorkbot",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "LazyS3",
+    "description": "Brute-force AWS S3 buckets",
+    "link": "https://github.com/nahamsec/lazys3",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "BucketFinder",
+    "description": "Find open Amazon S3 buckets",
+    "link": "https://github.com/FishermansEnemy/bucket_finder",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "AWSBucketDump",
+    "description": "Quickly enumerate S3 buckets",
+    "link": "https://github.com/jordanpotti/AWSBucketDump",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "CloudFlair",
+    "description": "Find origin servers behind Cloudflare",
+    "link": "https://github.com/christophetd/CloudFlair",
+    "category": "Cloud OSINT"
+  },
+  {
+    "name": "PhishEye",
+    "description": "Phishing domain detection via DomainTools",
+    "link": "https://research.domaintools.com/phisheye/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "OpenPhish",
+    "description": "Phishing intelligence platform",
+    "link": "https://openphish.com/",
+    "category": "Phishing Analysis"
+  },
+  {
+    "name": "Shodan 2000",
+    "description": "Real-time Shodan data stream",
+    "link": "https://2000.shodan.io/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Wappalyzer CLI",
+    "description": "Technology detection CLI",
+    "link": "https://github.com/AliasIO/wappalyzer",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "httpie",
+    "description": "Human-friendly HTTP client",
+    "link": "https://httpie.io/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "curl",
+    "description": "Command line URL transfer tool",
+    "link": "https://curl.se/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "Sitemap Generator",
+    "description": "Create XML sitemaps for any website",
+    "link": "https://www.xml-sitemaps.com/",
+    "category": "Web Fingerprinting"
+  },
+  {
+    "name": "CompleteDNS",
+    "description": "DNS history database",
+    "link": "https://completedns.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "SubdomainFinder.c99",
+    "description": "Online subdomain finder",
+    "link": "https://subdomainfinder.c99.nl/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "PassiveDNS",
+    "description": "Mnemonic passive DNS lookup",
+    "link": "https://passivedns.mnemonic.no/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "Wayback WHOIS",
+    "description": "Historical WHOIS records",
+    "link": "https://www.whoishistory.cc/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "FindSubdomains",
+    "description": "Spyse subdomain finder",
+    "link": "https://findsubdomains.com/",
+    "category": "WHOIS & Domain Intel"
+  },
+  {
+    "name": "0day.today",
+    "description": "Exploit and vulnerability marketplace",
+    "link": "https://0day.today/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "PoC-in-GitHub",
+    "description": "CVE PoC exploits on GitHub",
+    "link": "https://github.com/nomi-sec/PoC-in-GitHub",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "D2 Exploit Pack",
+    "description": "Collection of ready-to-use exploits",
+    "link": "https://d2sec.com/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "CAPEC",
+    "description": "Common attack pattern enumeration",
+    "link": "https://capec.mitre.org/",
+    "category": "Exploit Databases"
+  },
+  {
+    "name": "SauceNAO",
+    "description": "Reverse image search for artwork",
+    "link": "https://saucenao.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Labnol",
+    "description": "Google reverse image search helper",
+    "link": "https://www.labnol.org/reverse/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Reveal",
+    "description": "Journalistic verification of images",
+    "link": "https://reveal-mklab.iti.gr/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "EagleEye",
+    "description": "Reverse image search tool for OSINT",
+    "link": "https://github.com/ThoughtfulDev/EagleEye",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Berify",
+    "description": "Reverse image search across networks",
+    "link": "https://berify.com/",
+    "category": "Reverse Image Search"
+  },
+  {
+    "name": "Thingful",
+    "description": "IoT search engine",
+    "link": "https://www.thingful.net/",
+    "category": "IoT OSINT"
+  },
+  {
+    "name": "Orbis",
+    "description": "Bureau van Dijk company database",
+    "link": "https://orbis.bvdinfo.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "Startup Tracker",
+    "description": "Track startups and funding",
+    "link": "https://startuptracker.io/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "TenderAlpha",
+    "description": "Government contract intelligence",
+    "link": "https://tenderalpha.com/",
+    "category": "Business OSINT"
+  },
+  {
+    "name": "I2P",
+    "description": "Invisible Internet Project anonymous network",
+    "link": "https://geti2p.net/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "CalyxOS",
+    "description": "Privacy-focused Android OS",
+    "link": "https://calyxos.org/",
+    "category": "Privacy Tools"
+  },
+  {
+    "name": "Lookout",
+    "description": "Mobile threat intelligence",
+    "link": "https://www.lookout.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "NowSecure",
+    "description": "Mobile app security testing",
+    "link": "https://www.nowsecure.com/",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "Drozer",
+    "description": "Android security assessment framework",
+    "link": "https://github.com/WithSecureLabs/drozer",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "APKLeaks",
+    "description": "Scan APK for URIs and secrets",
+    "link": "https://github.com/dwisiswant0/apkleaks",
+    "category": "Mobile OSINT"
+  },
+  {
+    "name": "OSINT Industries",
+    "description": "Commercial OSINT search platform",
+    "link": "https://osint.industries/",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Recon-Spider",
+    "description": "Automated open source intelligence",
+    "link": "https://github.com/bhavsec/reconspider",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "OSRFramework",
+    "description": "Open Sources Research Framework",
+    "link": "https://github.com/i3visio/osrframework",
+    "category": "OSINT Frameworks"
+  },
+  {
+    "name": "Mr.Holmes",
+    "description": "OSINT data gathering tool",
+    "link": "https://github.com/Lucksi/Mr.Holmes",
+    "category": "OSINT Frameworks"
   }
 ];
